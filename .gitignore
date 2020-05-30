@@ -10,6 +10,9 @@ cc
 # pdf figures
 fig/*pdf
 
+# pdf files
+*pdf
+
 # The submission directory
 submission
 
