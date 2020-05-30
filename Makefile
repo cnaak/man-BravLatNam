@@ -28,10 +28,10 @@ fig/%.pdf: fig/%.svg
 ${PREF}.dvi: ${PREF}.tex 0*tex \
 		cc/by.pdf \
 		bibfile.bib
-	latex ${PREF}.tex
+	latex --enable-write18 ${PREF}.tex
 	bibtex ${PREF}
-	latex ${PREF}.tex
-	latex ${PREF}.tex
+	latex --enable-write18 ${PREF}.tex
+	latex --enable-write18 ${PREF}.tex
 
 ${PREF}.pdf: ${PREF}.dvi
 	dvipdf ${PREF}.dvi
