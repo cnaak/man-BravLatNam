@@ -25,14 +25,11 @@ fig/%.pdf: fig/%.svg
 		--export-filename=$@ \
 		$<
 
-${PREF}.dvi: ${PREF}.tex 0*tex \
+${PREF}.pdf: ${PREF}.tex 0*tex \
 		cc/by.pdf \
 		bibfile.bib
-	latex --enable-write18 ${PREF}.tex
+	pdflatex --enable-write18 ${PREF}.tex
 	bibtex ${PREF}
-	latex --enable-write18 ${PREF}.tex
-	latex --enable-write18 ${PREF}.tex
-
-${PREF}.pdf: ${PREF}.dvi
-	dvipdf ${PREF}.dvi
+	pdflatex --enable-write18 ${PREF}.tex
+	pdflatex --enable-write18 ${PREF}.tex
 
