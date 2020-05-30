@@ -5,6 +5,13 @@ clean:
 		rm -vf ${PREF}.$$EXT; \
 	done
 
+cc/%.pdf: cc/%.svg
+	inkscape \
+		--export-type=pdf \
+		--export-pdf-version=1.4 \
+		--export-filename=$@ \
+		$<
+
 fig/%.pdf: fig/%.svg
 	inkscape \
 		--export-type=pdf \
@@ -19,6 +26,7 @@ fig/%.pdf: fig/%.svg
 		$<
 
 ${PREF}.dvi: ${PREF}.tex 0*tex \
+		cc/by.pdf \
 		bibfile.bib
 	latex ${PREF}.tex
 	bibtex ${PREF}
