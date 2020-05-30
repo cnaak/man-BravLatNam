@@ -131,3 +131,22 @@ introduce 5th-, 6th-, and 8th-order two-dimensional lattice-Boltzmann stencils.}
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+@Article{1986-WolframS-JStatPhys,
+author="Wolfram, Stephen",
+title="Cellular automaton fluids 1: Basic theory",
+journal="Journal of Statistical Physics",
+year="1986",
+month="Nov",
+day="01",
+volume="45",
+number="3",
+pages="471--526",
+abstract="Continuum equations are derived for the large-scale behavior of a class of cellular automaton models for fluids. The cellular automata are discrete analogues of molecular dynamics, in which particles with discrete velocities populate the links of a fixed array of sites. Kinetic equations for microscopic particle distributions are constructed. Hydrodynamic equations are then derived using the Chapman-Enskog expansion. Slightly modified Navier-Stokes equations are obtained in two and three dimensions with certain lattices. Viscosities and other transport coefficients are calculated using the Boltzmann transport equation approximation. Some corrections to the equations of motion for cellular automaton fluids beyond the Navier-Stokes order are given.",
+issn="1572-9613",
+doi="10.1007/BF01021083",
+url="https://doi.org/10.1007/BF01021083"
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
