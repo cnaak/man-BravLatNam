@@ -42,6 +42,10 @@
 %----------------------------------------------------------------------------------------------%
 %                                           Metadata                                           %
 %----------------------------------------------------------------------------------------------%
+\makeatletter
+\immediate\write18{datelog > \jobname.info}
+\makeatother
+%-----------------------------------------------------------------------------------------------
 % Journal information
 \JournalInfo{engrXiv}
 \Archive{Compiled on \input{\jobname.info} -- Version \input{00-00-PreprintVersion.tex}}
