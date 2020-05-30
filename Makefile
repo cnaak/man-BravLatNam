@@ -25,7 +25,7 @@ fig/%.pdf: fig/%.svg
 		--export-filename=$@ \
 		$<
 
-${PREF}.pdf: ${PREF}.tex 0*tex \
+${PREF}.pdf: ${PREF}.tex 0*tex PreprintVersion.tex \
 		cc/by.pdf \
 		bibfile.bib
 	pdflatex --enable-write18 ${PREF}.tex
