@@ -78,3 +78,56 @@
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{2014-MattilaKK+PhilippiPC-SciWorldJ,
+  author    = {Keijo Kalervo Mattila and Hegele, Jr., Luiz Adolfo and Paulo Cesar Philippi},
+  title     = {High-Accuracy Approximation of High-Rank Derivatives: Isotropic Finite Differences Based on Lattice-Boltzmann Stencils},
+  journal   = {The Scientific World Journal},
+  year      = {2014},
+  volume    = {2014},
+  pages     = {1--16},
+  month     = {January},
+  note      = {Article ID 142907},
+  abstract  = {We propose isotropic finite differences for high-accuracy approximation of high-rank derivatives. These finite differences are
+based on direct application of lattice-Boltzmann stencils. The presented finite-difference expressions are valid in any dimension,
+particularly in two and three dimensions, and any lattice-Boltzmann stencil isotropic enough can be utilized. A theoretical basis
+for the proposed utilization of lattice-Boltzmann stencils in the approximation of high-rank derivatives is established. In particular,
+the isotropy and accuracy properties of the proposed approximations are derived directly from this basis. Furthermore, in this
+formal development, we extend the theory of Hermite polynomial tensors in the case of discrete spaces and present expressions for
+the discrete inner products between monomials and Hermite polynomial tensors. In addition, we prove an equivalency between
+two approaches for constructing lattice-Boltzmann stencils. For the numerical verification of the presented finite differences, we
+introduce 5th-, 6th-, and 8th-order two-dimensional lattice-Boltzmann stencils.},
+  doi       = {10.1155/2014/142907},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2014-MattilaKK+PhilippiPC-SciWorldJ.pdf:PDF},
+  owner     = {chris},
+  timestamp = {2016.08.27},
+  url       = {http://dx.doi.org/10.1155/2014/142907},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1988-McNamaraGR+ZanettiG-PhysRevLett,
+  author    = {McNamara, Guy R. and Zanetti, Gianluigi},
+  title     = {Use of the {B}oltzmann Equation to Simulate Lattice-Gas Automata},
+  journal   = {Phys. Rev. Letters},
+  year      = {1988},
+  volume    = {61},
+  number    = {20},
+  pages     = {2332--2335},
+  month     = {Nov},
+  abstract  = {We discuss an alternative technique to the lattice-gas automata for the study of hydrodynamic properties, namely, we propose to model the lattice gas with a Boltzmann equation. This approach completely eliminates the statistical noise that plagues the usual lattice-gas simulations and therefore permits simulations that demand much less computer time. It is estimated to be more efficient than the lattice-gas automata for intermediate to low Reynolds number R $\sim$ 100.},
+  doi       = {10.1103/PhysRevLett.61.2332},
+  file      = {:1988-McNamaraGR+ZanettiG-PhysRevLett.pdf:PDF},
+  issue     = {20},
+  numpages  = {4},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.07},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevLett.61.2332},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
