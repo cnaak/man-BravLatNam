@@ -260,3 +260,25 @@ eprint = {https://doi.org/10.1063/1.1666248},
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{1987-SucciS-JPhysAMathGen,
+  author    = {Succi, Sauro},
+  title     = {Triangular versus square lattice gas automata for the analysis of two-dimensional vortex fields},
+  journal   = {Journal of Physics A: Mathematical and General},
+  year      = {1987},
+  volume    = {21},
+  number    = {1},
+  pages     = {L43--L49},
+  abstract  = {The consequences of the lack of isotropy of the momentum flux tensor of the Hardy-Pomeau-De Pazzis (1976) fluid are discussed. It is shown that this lack of isotropy is tantamount to introducing a force which is incompatible with a correct evolution of two-dimensional vortex configurations. In addition, a qualitative discussion is presented on the physical reasons why this problem can be cured by moving to the six-link lattice introduced by Frisch, Hasslacher and Pomeau (1986).},
+  doi       = {10.1088/0305-4470/21/1/008},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1987-SucciS-JPhysAMathGen.pdf:PDF},
+  numpages  = {8},
+  owner     = {felipestok},
+  publisher = {IOP Publishing Ltd.},
+  timestamp = {2017.09.07},
+  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1088/0305-4470/21/1/008},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
