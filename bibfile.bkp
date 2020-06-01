@@ -420,3 +420,25 @@ eprint = {https://doi.org/10.1063/1.1666248},
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{1990-BenziR+VergassolaM-NuclPhysB,
+  author    = {Benzi, Roberto and Succi, Sauro and Vergassola, Massimo},
+  title     = {The lattice Boltzmann equation for turbulence},
+  journal   = {Nuclear Physics B},
+  year      = {1990},
+  volume    = {17},
+  pages     = {708--711},
+  month     = {Sep},
+  abstract  = {In this paper we shall review some of the most recent advances in the theory and applications of the Lattice Boltzmann Equation for fluid dynamics.},
+  doi       = {10.1016/0920-5632(90)90347-W},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1990-BenziR+VergassolaM-NuclPhysB.pdf:PDF},
+  numpages  = {4},
+  owner     = {felipestok},
+  publisher = {Elsevier Science Publishers B.V .(North-Holland)},
+  timestamp = {2017.09.07},
+  url       = {https://doi.org/10.1016/0920-5632(90)90347-W},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
