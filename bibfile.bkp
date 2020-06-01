@@ -244,3 +244,19 @@ eprint = {https://doi.org/10.1063/1.1666248},
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{1987-FrischU+RivetJP-ComplexSyst,
+  author   = {Frisch, U. and d'Humières, D. and Hasslacher, B. and Lallemand, P. and Pomeau, Y. and Rivet, J.-P.},
+  title    = {Lattice Gas Hydrodynamics in Two and Three Dimensions},
+  journal  = {Complex Systems},
+  year     = {1987},
+  volume   = {1},
+  pages    = {649--707},
+  issn     = {0891-2513},
+  abstract = {Hydrodynamical phenomena can be simulated by discrete lattice gas models obeying cellular automata rules [1,2]. It is here shown for a class of D-dimensional lattice gas models how the macrodynamical (large-scale) equations for the densities of microscopically conserved quantities can be systematically derived from the underlying exact "microdynamical" Boolean equations. With suitable restrictions on the crystallographic symmetries of the lattice and after proper limits are taken, various standard fluid dynamical equations are obtained, including the incompressible Navier-Stokes equations in two and three dimensions. The transport coefficients appearing in the macrodynamical equations are obtained using variants of the fluctuation-dissipation theorem and Boltzmann formalisms adapted to fully discrete situations.},
+  url      = {http://www.complex-systems.com/abstracts/v01_i04_a07},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
