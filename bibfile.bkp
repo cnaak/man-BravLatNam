@@ -221,3 +221,26 @@ eprint = {https://doi.org/10.1063/1.1666248},
   url = {https://link.aps.org/doi/10.1103/PhysRevA.13.1949}
 }
 
+% Encoding: UTF-8
+
+@Article{1986-FrischU+PomeauY-PhysRevLett,
+  author    = {Frisch, U. and Hasslacher, B. and Pomeau, Y.},
+  title     = {Lattice-Gas Automata for the Navier-Stokes Equation},
+  journal   = {Phys. Rev. Letters},
+  year      = {1986},
+  volume    = {56},
+  number    = {14},
+  pages     = {1505--1508},
+  month     = {Apr},
+  abstract  = {We show that a class of deterministic lattice gases with discrete Boolean elements simulates the Navier-Stokes equation, and can be used to design simple, massively parallel computing machines.},
+  doi       = {10.1103/PhysRevLett.56.1505},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1986-FrischU+PomeauY-PhysRevLett.pdf:PDF},
+  numpages  = {4},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.07},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevLett.56.1505},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
