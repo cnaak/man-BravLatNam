@@ -374,3 +374,26 @@ eprint = {https://doi.org/10.1063/1.1666248},
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{1989-HigueraFJ+SucciS-EurophysLett,
+  author    = {Higuera, F.J. and Succi, Sauro},
+  title     = {Simulating the Flow Around a Circular Cylinder with a Lattice Boltzmann Equation},
+  journal   = {EPL (Europhysics Letters)},
+  year      = {1989},
+  volume    = {8},
+  number    = {6},
+  pages     = {517--521},
+  month     = {Mar},
+  abstract  = {It is shown that the lattice Boltzmann equation deriving from the Frisch-Hasslacher-Pomeau cellular automation, being free from microscopic fluctuations, provides a new appealing tool to simulate realistic incompressible hydrodynamics. Numerical results pertaining to a two-dimensional flow past a cylinder are reported and compared with numerical and experimental data available in the literature.},
+  doi       = {10.1209/0295-5075/8/6/005},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1989-HigueraFJ+SucciS-EurophysLett.pdf:PDF},
+  numpages  = {6},
+  owner     = {felipestok},
+  publisher = {IOP},
+  timestamp = {2017.09.09},
+  url       = {https://doi.org/10.1209/0295-5075/8/6/005},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
