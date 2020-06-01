@@ -206,3 +206,18 @@ doi = {10.1063/1.1666248},
 URL = {https://doi.org/10.1063/1.1666248},
 eprint = {https://doi.org/10.1063/1.1666248},
 }
+@article{1976-HardyJ+PomeauY-PhysRevA,
+  title = {Molecular dynamics of a classical lattice gas: Transport properties and time correlation functions},
+  author = {Hardy, J. and de Pazzis, O. and Pomeau, Y.},
+  journal = {Phys. Rev. A},
+  volume = {13},
+  issue = {5},
+  pages = {1949--1961},
+  numpages = {0},
+  year = {1976},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.13.1949},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.13.1949}
+}
+
