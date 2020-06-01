@@ -510,3 +510,26 @@ eprint = {https://doi.org/10.1063/1.1666248},
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{1991-ErnstMH-PhysD,
+  author    = {Ernst, M. H.},
+  title     = {Mode-coupling theory and tails in CA fluids},
+  journal   = {Physica D: Nonlinear Phenomena},
+  year      = {1991},
+  volume    = {47},
+  pages     = {198--211},
+  month     = {Jan},
+  abstract  = {After a summary of important effects of mode-coupling theory in continuous fluids, the theory is extended to $CA$ fluids and the long-time tails calculated for the velocity correlation function and for the stress-stress correlation function, including the spurious contributions from the staggered momentum densities. At finite densities the Fermi statistics strongly suppresses the long-time singularities arising from two fluid modes, but not those from tagged particle diffusion.},
+  doi       = {10.1016/0167-2789(91)90290-P},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-ErnstMH-PhysD.pdf:PDF},
+  issue     = {1--2},
+  numpages  = {14},
+  owner     = {felipestok},
+  publisher = {Elsevier Science Publishers B.V. (North-Holland)},
+  timestamp = {2017.09.12},
+  url       = {https://doi.org/10.1016/0167-2789(91)90290-P},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
