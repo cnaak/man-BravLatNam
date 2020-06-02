@@ -660,3 +660,25 @@ url="https://doi.org/10.1007/BF01021083"
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{1993-AlexanderFJ+SterlingJD-PhysRevE,
+  author    = {Alexander, F. J. and Chen, S. and Sterling, J. D.},
+  title     = {Lattice Boltzmann thermohydrodynamics},
+  journal   = {Phys. Rev. E},
+  year      = {1993},
+  volume    = {47},
+  number    = {4},
+  pages     = {R2249--R2252},
+  abstract  = {We introduce a lattice Boltzmann computational scheme capable of modeling thermohydrodynamic flows of monatomic gases. The parallel nature of this approach provides a numerically efficient alternative to traditional methods of computational Auid dynamics. The scheme uses a small number of discrete velocity states and a linear, single-time relaxation collision operator. Numerical simulations in two dimensions agree well with exact solutions for adiabatic sound propagation and Couette Aow with heat transfer.},
+  doi       = {10.1103/PhysRevE.47.R2249},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1993-AlexanderFJ+SterlingJD-PhysRevE.pdf:PDF},
+  numpages  = {4},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.07},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevE.47.R2249},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
