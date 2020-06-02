@@ -590,3 +590,26 @@ eprint = {https://doi.org/10.1063/1.1666248},
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{1991-FrischU-PhysD,
+  author    = {Frisch, U.},
+  title     = {Relation between the lattice Boltzmann equation and the Navier-stokes equations},
+  journal   = {Physica D: Nonlinear Phenomena},
+  year      = {1991},
+  volume    = {47},
+  pages     = {231--232},
+  month     = {Jan},
+  abstract  = {It is shown that the lattice gas Boltzmann equation may be rewritten in a form which brings out its close relation with the Navier-Stokes equations. Various consequences are pointed out.},
+  doi       = {10.1016/0167-2789(91)90293-I},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-FrischU-PhysD.pdf:PDF},
+  issue     = {1--2},
+  numpages  = {2},
+  owner     = {felipestok},
+  publisher = {Elsevier Science Publishers B.V.(North-Holland)},
+  timestamp = {2017.09.09},
+  url       = {https://doi.org/10.1016/0167-2789(91)90293-I},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
