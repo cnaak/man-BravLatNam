@@ -1,114 +1,5 @@
 % Encoding: UTF-8
 
-@Article{2016-PhilippiPC+MattilaKK-JBrazSocMechSci,
-  author    = {P. C. Philippi and D. N. Siebert and L. A. Hegele Jr and K. K. Mattila},
-  title     = {High‐order lattice‐Boltzmann},
-  journal   = {Journal of the Brazilian Society of Mechanical Sciences and Engineering},
-  year      = {2016},
-  volume    = {38},
-  number    = {5},
-  pages     = {1401--1419},
-  month     = {June},
-  abstract  = {Unlike conventional CFD methods, the lattice Boltzmann method (LBM) describes the dynamic behaviour of physical systems in a mesoscopic scale, based on discrete forms of kinetic equations. In addition to the classical collision-propagation scheme in which the physical and velocity spaces are coupled, finite-differences, finite volumes and finite-element schemes have been used for numerically solving the discrete kinetic equations. A major breakthrough in LB theory was the direct derivation of the LB equation from continuous kinetic equations, establishing a systematic link between the kinetic theory and the lattice Boltzmann method and determining the necessary conditions for the discretization of the velocity space. The lattices obtained by this method proved to be stable in flows over a wide range of parameters, by the use of high-order lattice Boltzmann schemes, leading to velocity sets which, when used in a discrete velocity kinetic scheme, ensures accurate recovery of the high-order hydrodynamic moments. This review presents the theoretical background of these kinetic methods. In particular, we focus on high-order discrete forms of the Boltzmann equation suitable for non-ideal fluids and on the lattice-Boltzmann collision-propagation method.},
-  doi       = {10.1007/s40430-015-0441-2},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2016-PhilippiPC+MattilaKK-JBrazSocMechSci.pdf:PDF},
-  keywords  = {Computational fluid dynamics, Mesoscopic modelling, Lattice-Boltzmann, Kinetic methods},
-  owner     = {chris},
-  timestamp = {2016.08.28},
-  url       = {http://link.springer.com/article/10.1007/s40430-015-0441-2},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Book{2018-KrugerT+ViggenEM-Springer,
-  title     = {The lattice {B}oltzmann method --- principles and practice},
-  publisher = {Springer},
-  year      = {2018},
-  author    = {Krüger, Timm and Kusumaatmaja, Halim and Kuzmin, Alexandr and Shardt, Orest and Silva, Goncalo and Viggen, Erlend Magnus},
-  editor    = {Lahee, Angela},
-  series    = {Graduate Texts in Physics},
-  address   = {Switzerland},
-  isbn      = {978-3-319-44647-9},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2013-HegeleJr+PhilippiPC-JSciComput,
-  author    = {Hegele, Jr., Luiz Adolfo and Keijo Kalervo Mattila and Paulo Cesar Philippi},
-  title     = {Rectangular Lattice-Boltzmann Schemes with BGK-Collision Operator},
-  journal   = {J. Sci. Comput.},
-  year      = {2013},
-  volume    = {56},
-  pages     = {230--242},
-  month     = {December},
-  abstract  = {The usual lattice-Boltzmann schemes for fluid flow simulations operate with square and cubic lattices. Instead of relying on square lattices it is possible to use rectangular and orthorombic lattices as well. Schemes using rectangular lattices can be constructed in several ways. Here we construct a rectangular scheme, with the BGK collision operator, by introducing 2 additional discrete velocities into the standard D2Q9 stencil and show how the same procedure can be applied in three dimensions by extending the D3Q19 stencil. The weights and scaling factors for the new stencils are found as the solutions of the well-known Hermite quadrature problem, assuring isotropy of the lattice tensors up to rank four (Philippi et al., Phys. Rev. E 73(5):056702, 2006) This isotropy is a necessary and sufficient condition for assuring the same second order accuracy of lattice-Boltzmann equation with respect to the Navier–Stokes hydrodynamic equations that is found with the standard D2Q9 and D3Q19 stencils. The numerical validation is done, in the two-dimensional case, by using the new rectangular scheme with D2R11 stencil for simulating the Taylor–Green vortex decay. The D3R23 stencil is numerically validated with three-dimensional simulations of cylindrical sound waves propagating from a point source.},
-  doi       = {10.1007/s10915-012-9672-x},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2013-HegeleJrLA+PhilippiPC-JSciComput.pdf:PDF},
-  owner     = {chris},
-  timestamp = {2016.08.28},
-  url       = {http://link.springer.com/article/10.1007/s10915-012-9672-x},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2013-MattilaKK+PhilippiPC-IntJModPhysC,
-  author    = {Keijo Kalervo Mattila and Diogo Nardelli Siebert and Hegele, Jr., Luiz Adolfo and Paulo Cesar Philippi},
-  title     = {High-order lattice-Boltzmann equations and stencils for multiphase models},
-  journal   = {International Journal of Modern Physics C},
-  year      = {2013},
-  volume    = {24},
-  number    = {12},
-  month     = {December},
-  note      = {1340006},
-  abstract  = {The lattice Boltzmann (LB) method, based on mesoscopic modeling of transport phenomena, appears to be an attractive alternative for the simulation of complex fluid flows. Examples of such complex dynamics are multiphase and multicomponent flows for which several LB models have already been proposed. However, due to theoretical or numerical reasons, some of these models may require application of high-order lattice-Boltzmann equations (LBEs) and stencils. Here, we will present a derivation of LBEs from the discrete-velocity Boltzmann equation (DVBE). By using the method of characteristics, high-order accurate equations are conveniently formulated with standard numerical methods for ordinary differential equations (ODEs). In particular, we will derive implicit LB schemes due to their stability properties. A simple algorithm is presented which enables implementation of the implicit schemes without resorting to, e.g. change of variables. Finally, some numerical experiments with high-order equations and stencils together with two specific multiphase models are presented.},
-  comment   = {15 pages},
-  doi       = {10.1142/S0129183113400068},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2013-MattilaKK+PhilippiPC-IntJModPhysC.pdf:PDF},
-  keywords  = {Lattice-Boltzmann method; high-order scheme; isotropy; multiphase flow},
-  owner     = {chris},
-  timestamp = {2016.08.28},
-  url       = {http://www.worldscientific.com/doi/abs/10.1142/S0129183113400068},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2014-MattilaKK+PhilippiPC-SciWorldJ,
-  author    = {Keijo Kalervo Mattila and Hegele, Jr., Luiz Adolfo and Paulo Cesar Philippi},
-  title     = {High-Accuracy Approximation of High-Rank Derivatives: Isotropic Finite Differences Based on Lattice-Boltzmann Stencils},
-  journal   = {The Scientific World Journal},
-  year      = {2014},
-  volume    = {2014},
-  pages     = {1--16},
-  month     = {January},
-  note      = {Article ID 142907},
-  abstract  = {We propose isotropic finite differences for high-accuracy approximation of high-rank derivatives. These finite differences are
-based on direct application of lattice-Boltzmann stencils. The presented finite-difference expressions are valid in any dimension,
-particularly in two and three dimensions, and any lattice-Boltzmann stencil isotropic enough can be utilized. A theoretical basis
-for the proposed utilization of lattice-Boltzmann stencils in the approximation of high-rank derivatives is established. In particular,
-the isotropy and accuracy properties of the proposed approximations are derived directly from this basis. Furthermore, in this
-formal development, we extend the theory of Hermite polynomial tensors in the case of discrete spaces and present expressions for
-the discrete inner products between monomials and Hermite polynomial tensors. In addition, we prove an equivalency between
-two approaches for constructing lattice-Boltzmann stencils. For the numerical verification of the presented finite differences, we
-introduce 5th-, 6th-, and 8th-order two-dimensional lattice-Boltzmann stencils.},
-  doi       = {10.1155/2014/142907},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2014-MattilaKK+PhilippiPC-SciWorldJ.pdf:PDF},
-  owner     = {chris},
-  timestamp = {2016.08.27},
-  url       = {http://dx.doi.org/10.1155/2014/142907},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
 @Article{1988-McNamaraGR+ZanettiG-PhysRevLett,
   author    = {McNamara, Guy R. and Zanetti, Gianluigi},
   title     = {Use of the {B}oltzmann Equation to Simulate Lattice-Gas Automata},
@@ -127,226 +18,6 @@ introduce 5th-, 6th-, and 8th-order two-dimensional lattice-Boltzmann stencils.}
   publisher = {American Physical Society},
   timestamp = {2017.09.07},
   url       = {https://link.aps.org/doi/10.1103/PhysRevLett.61.2332},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-@Article{1986-WolframS-JStatPhys,
-author="Wolfram, Stephen",
-title="Cellular automaton fluids 1: Basic theory",
-journal="Journal of Statistical Physics",
-year="1986",
-month="Nov",
-day="01",
-volume="45",
-number="3",
-pages="471--526",
-abstract="Continuum equations are derived for the large-scale behavior of a class of cellular automaton models for fluids. The cellular automata are discrete analogues of molecular dynamics, in which particles with discrete velocities populate the links of a fixed array of sites. Kinetic equations for microscopic particle distributions are constructed. Hydrodynamic equations are then derived using the Chapman-Enskog expansion. Slightly modified Navier-Stokes equations are obtained in two and three dimensions with certain lattices. Viscosities and other transport coefficients are calculated using the Boltzmann transport equation approximation. Some corrections to the equations of motion for cellular automaton fluids beyond the Navier-Stokes order are given.",
-issn="1572-9613",
-doi="10.1007/BF01021083",
-url="https://doi.org/10.1007/BF01021083"
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1991-QianYH+LallemandP-AdvKinTheoContMech,
-  author    = {Qian, Yue-Hong and d'Humi\`eres, D. and Lallemand, P.},
-  title     = {A One Dimensional Lattice Boltzmann Equation with Galilean Invariance},
-  journal   = {Advances in Kinetic Theory and Continuum Mechanics},
-  year      = {1991},
-  pages     = {127},
-  issn      = {978-3-642-50235-4},
-  abstract  = {A three-velocity one-dimensional Lattice Boltzmann Equation is presented. The stability of the equilibrium distribution is studied and the dynamical equations are given. It is shown that Galilean invariance can be recovered for the proper choice of the collision operator. This particular model is then used to compare the results of numerical simulations to the behavior of a shock tube.},
-  doi       = {10.1007/978-3-642-50235-4_12},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-QianYH+LallemandP-AdvKinTheoContMech.pdf:PDF},
-  numpages  = {2},
-  owner     = {felipestok},
-  publisher = {Springer, Berlin, Heidelberg},
-  timestamp = {2017.09.09},
-  url       = {https://doi.org/10.1007/978-3-642-50235-4_12},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1992-QianYH+LallemandP-EurophysLett,
-  author    = {Qian, Y. H. and D'Humi\`eres, D. and Lallemand, P.},
-  title     = {Lattice BGK Models for Navier-Stokes Equation},
-  journal   = {EPL (Europhysics Letters)},
-  year      = {1992},
-  volume    = {17},
-  number    = {6},
-  pages     = {3479--484},
-  month     = {Jan},
-  abstract  = {We propose the lattice $BGK$ models, as an alternative to lattice gases or the lattice Boltzmann equation, to obtain an efficient numerical scheme for the simulation of fluid dynamics. With a properly chosen equilibrium distribution, the Navier-Stokes equation is obtained from the kinetic $BGK$ equation at the second-order of approximation. Compared to lattice gases, the present model is noise-free, has Galileian invariance and a velocity-independent pressure. It involves a relaxation parameter that influences the stability of the new scheme. Numerical simulations are shown to confirm the speed of sound and the shear viscosity.},
-  doi       = {10.1209/0295-5075/17/6/001},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1992-QianYH+LallemandP-EurophysLett.pdf:PDF},
-  numpages  = {6},
-  owner     = {felipestok},
-  publisher = {IOP},
-  timestamp = {2017.09.09},
-  url       = {http://doi.org/10.1209/0295-5075/17/6/001},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-@article{1973-HardyJ+PazzisO-JMathPhys,
-author = {Hardy, J. and Pomeau, Y. and de Pazzis, O.},
-title = {Time evolution of a two‐dimensional model system. I. Invariant states and time correlation functions},
-journal = {Journal of Mathematical Physics},
-volume = {14},
-number = {12},
-pages = {1746--1759},
-year = {1973},
-doi = {10.1063/1.1666248},
-URL = {https://doi.org/10.1063/1.1666248},
-eprint = {https://doi.org/10.1063/1.1666248},
-}
-@article{1976-HardyJ+PomeauY-PhysRevA,
-  title = {Molecular dynamics of a classical lattice gas: Transport properties and time correlation functions},
-  author = {Hardy, J. and de Pazzis, O. and Pomeau, Y.},
-  journal = {Phys. Rev. A},
-  volume = {13},
-  issue = {5},
-  pages = {1949--1961},
-  numpages = {0},
-  year = {1976},
-  month = {May},
-  publisher = {American Physical Society},
-  doi = {10.1103/PhysRevA.13.1949},
-  url = {https://link.aps.org/doi/10.1103/PhysRevA.13.1949}
-}
-
-% Encoding: UTF-8
-
-@Article{1986-FrischU+PomeauY-PhysRevLett,
-  author    = {Frisch, U. and Hasslacher, B. and Pomeau, Y.},
-  title     = {Lattice-Gas Automata for the Navier-Stokes Equation},
-  journal   = {Phys. Rev. Letters},
-  year      = {1986},
-  volume    = {56},
-  number    = {14},
-  pages     = {1505--1508},
-  month     = {Apr},
-  abstract  = {We show that a class of deterministic lattice gases with discrete Boolean elements simulates the Navier-Stokes equation, and can be used to design simple, massively parallel computing machines.},
-  doi       = {10.1103/PhysRevLett.56.1505},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1986-FrischU+PomeauY-PhysRevLett.pdf:PDF},
-  numpages  = {4},
-  owner     = {felipestok},
-  publisher = {American Physical Society},
-  timestamp = {2017.09.07},
-  url       = {https://link.aps.org/doi/10.1103/PhysRevLett.56.1505},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1987-FrischU+RivetJP-ComplexSyst,
-  author   = {Frisch, U. and d'Humières, D. and Hasslacher, B. and Lallemand, P. and Pomeau, Y. and Rivet, J.-P.},
-  title    = {Lattice Gas Hydrodynamics in Two and Three Dimensions},
-  journal  = {Complex Systems},
-  year     = {1987},
-  volume   = {1},
-  pages    = {649--707},
-  issn     = {0891-2513},
-  abstract = {Hydrodynamical phenomena can be simulated by discrete lattice gas models obeying cellular automata rules [1,2]. It is here shown for a class of D-dimensional lattice gas models how the macrodynamical (large-scale) equations for the densities of microscopically conserved quantities can be systematically derived from the underlying exact "microdynamical" Boolean equations. With suitable restrictions on the crystallographic symmetries of the lattice and after proper limits are taken, various standard fluid dynamical equations are obtained, including the incompressible Navier-Stokes equations in two and three dimensions. The transport coefficients appearing in the macrodynamical equations are obtained using variants of the fluctuation-dissipation theorem and Boltzmann formalisms adapted to fully discrete situations.},
-  url      = {http://www.complex-systems.com/abstracts/v01_i04_a07},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1987-SucciS-JPhysAMathGen,
-  author    = {Succi, Sauro},
-  title     = {Triangular versus square lattice gas automata for the analysis of two-dimensional vortex fields},
-  journal   = {Journal of Physics A: Mathematical and General},
-  year      = {1987},
-  volume    = {21},
-  number    = {1},
-  pages     = {L43--L49},
-  abstract  = {The consequences of the lack of isotropy of the momentum flux tensor of the Hardy-Pomeau-De Pazzis (1976) fluid are discussed. It is shown that this lack of isotropy is tantamount to introducing a force which is incompatible with a correct evolution of two-dimensional vortex configurations. In addition, a qualitative discussion is presented on the physical reasons why this problem can be cured by moving to the six-link lattice introduced by Frisch, Hasslacher and Pomeau (1986).},
-  doi       = {10.1088/0305-4470/21/1/008},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1987-SucciS-JPhysAMathGen.pdf:PDF},
-  numpages  = {8},
-  owner     = {felipestok},
-  publisher = {IOP Publishing Ltd.},
-  timestamp = {2017.09.07},
-  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1088/0305-4470/21/1/008},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1991-BoonJP-PhysD,
-  author    = {Boon, Jean Pierre},
-  title     = {Statistical mechanics and hydrodynamics of lattice gas automata: An overview},
-  journal   = {Physica D: Nonlinear Phenomena},
-  year      = {1991},
-  volume    = {47},
-  pages     = {3--8},
-  month     = {Jan},
-  abstract  = {Some of the issues raised by recent work on lattice gas automata are reviewed.},
-  doi       = {10.1016/0167-2789(91)90272-B},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-BoonJP-PhysD.pdf:PDF},
-  issue     = {1--2},
-  numpages  = {6},
-  owner     = {felipestok},
-  publisher = {Elsevier Science Publishers B.V. (North-Holland)},
-  timestamp = {2017.09.12},
-  url       = {https://doi.org/10.1016/0167-2789(91)90272-B},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1991-AppertC+ZaleskiS-PhysD,
-  author    = {Appert, C\'ecile and Rothman, Daniel H. and Zaleski, St\'ephane},
-  title     = {A liquid-gas model on a lattice},
-  journal   = {Physica D: Nonlinear Phenomena},
-  year      = {1991},
-  volume    = {47},
-  pages     = {85--96},
-  month     = {Jan},
-  abstract  = {We describe a triangular lattice model able to undergo a liquid-gas transition. The model is obtained by adding an attractive force to the Frisch-Hasslacher-Pomeau gas in the form of non-local interaction. Several types of interactions are suggested and their properties are discussed. When the attractive forces are strong enough the model decomposes into a dense and a light phase. The equation of state of the model is analogous to a van der Waals equation. The theoretical prediction of the equation of state, obtained using a Boltzmann or factorization assumption, agrees well with numerical observations. The isotropy of the model is tested by a numerical computation of the two-dimensional power spectrum.},
-  doi       = {10.1016/0167-2789(91)90282-E},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-AppertC+ZaleskiS-PhysD.pdf:PDF},
-  issue     = {1--2},
-  numpages  = {12},
-  owner     = {felipestok},
-  publisher = {Elsevier Science Publishers B.V. (North-Holland)},
-  timestamp = {2017.09.12},
-  url       = {https://doi.org/10.1016/0167-2789(91)90282-E},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1991-ChenS+RoseH-PhysD,
-  author    = {Chen, Shiyi and Chen, Hudong and Doolen, Gary D. and Lee, Y. C. and Rose, H.},
-  title     = {Lattice gas models for nonideal gas fluids},
-  journal   = {Physica D: Nonlinear Phenomena},
-  year      = {1991},
-  volume    = {47},
-  pages     = {97--111},
-  month     = {Jan},
-  abstract  = {A lattice gas model with a nonideal gas equation of state is presented. Transitions between the solid and gas phase are described. Computer simulations of applications of this model to shock waves are discussed. Generalization of this model to liquid crystal flow is also outlined.},
-  doi       = {10.1016/0167-2789(91)90283-F},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-ChenS+RoseCH-PhysD.pdf:PDF},
-  issue     = {1--2},
-  numpages  = {15},
-  owner     = {felipestok},
-  publisher = {Elsevier Science Publishers B.V. (North-Holland)},
-  timestamp = {2017.09.12},
-  url       = {https://doi.org/10.1016/0167-2789(91)90283-F},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -535,34 +206,23 @@ eprint = {https://doi.org/10.1063/1.1666248},
 
 % Encoding: UTF-8
 
-@Periodical{1991-FlaschkaH-PhysD,
-  title  = {Physica D: Nonlinear Phenomena},
-  year   = {1991},
-  editor = {Flaschka, H.},
-  file   = {:1991-FlaschkaH-PhysD.pdf:PDF},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1991-SucciS+BenziR-PhysRevA,
-  author    = {Succi, S. and Vergassola, M. and Benzi, R.},
-  title     = {Lattice Boltzmann scheme for two-dimensional magnetohydrodynamics},
-  journal   = {Physical Review A},
+@Article{1991-FrischU-PhysD,
+  author    = {Frisch, U.},
+  title     = {Relation between the lattice Boltzmann equation and the Navier-stokes equations},
+  journal   = {Physica D: Nonlinear Phenomena},
   year      = {1991},
-  volume    = {43},
-  number    = {8},
-  pages     = {4521},
-  month     = {Apr},
-  abstract  = {It is shown that the lattice Boltzmann equation arising from the basic lattice-gas scheme for Navier-Stokes equations can be extended in such a way as to include the effects of a two-dimensional magnetic field. This offers the possibility of developing new computational schemes for the efficient simulation of incompressible magnetohydrodynamic flows.},
-  doi       = {10.1103/PhysRevA.43.4521},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-SucciS+BenziR-PhysRevA.pdf:PDF},
-  numpages  = {4},
+  volume    = {47},
+  pages     = {231--232},
+  month     = {Jan},
+  abstract  = {It is shown that the lattice gas Boltzmann equation may be rewritten in a form which brings out its close relation with the Navier-Stokes equations. Various consequences are pointed out.},
+  doi       = {10.1016/0167-2789(91)90293-I},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-FrischU-PhysD.pdf:PDF},
+  issue     = {1--2},
+  numpages  = {2},
   owner     = {felipestok},
-  publisher = {American Physical Society},
+  publisher = {Elsevier Science Publishers B.V.(North-Holland)},
   timestamp = {2017.09.09},
-  url       = {https://doi.org/10.1103/PhysRevA.43.4521},
+  url       = {https://doi.org/10.1016/0167-2789(91)90293-I},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -592,29 +252,6 @@ eprint = {https://doi.org/10.1063/1.1666248},
 
 % Encoding: UTF-8
 
-@Article{1991-FrischU-PhysD,
-  author    = {Frisch, U.},
-  title     = {Relation between the lattice Boltzmann equation and the Navier-stokes equations},
-  journal   = {Physica D: Nonlinear Phenomena},
-  year      = {1991},
-  volume    = {47},
-  pages     = {231--232},
-  month     = {Jan},
-  abstract  = {It is shown that the lattice gas Boltzmann equation may be rewritten in a form which brings out its close relation with the Navier-Stokes equations. Various consequences are pointed out.},
-  doi       = {10.1016/0167-2789(91)90293-I},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-FrischU-PhysD.pdf:PDF},
-  issue     = {1--2},
-  numpages  = {2},
-  owner     = {felipestok},
-  publisher = {Elsevier Science Publishers B.V.(North-Holland)},
-  timestamp = {2017.09.09},
-  url       = {https://doi.org/10.1016/0167-2789(91)90293-I},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
 @Article{1991-KoelmanJMVA-EurophysLett,
   author    = {Koelman, J. M. V. A.},
   title     = {A Simple Lattice Boltzmann Scheme for Navier-Stokes Fluid Flow.},
@@ -632,6 +269,358 @@ eprint = {https://doi.org/10.1063/1.1666248},
   publisher = {IOP},
   timestamp = {2017.09.09},
   url       = {https://doi.org/10.1209/0295-5075/15/6/007},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1991-QianYH+LallemandP-AdvKinTheoContMech,
+  author    = {Qian, Yue-Hong and d'Humi\`eres, D. and Lallemand, P.},
+  title     = {A One Dimensional Lattice Boltzmann Equation with Galilean Invariance},
+  journal   = {Advances in Kinetic Theory and Continuum Mechanics},
+  year      = {1991},
+  pages     = {127},
+  issn      = {978-3-642-50235-4},
+  abstract  = {A three-velocity one-dimensional Lattice Boltzmann Equation is presented. The stability of the equilibrium distribution is studied and the dynamical equations are given. It is shown that Galilean invariance can be recovered for the proper choice of the collision operator. This particular model is then used to compare the results of numerical simulations to the behavior of a shock tube.},
+  doi       = {10.1007/978-3-642-50235-4_12},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-QianYH+LallemandP-AdvKinTheoContMech.pdf:PDF},
+  numpages  = {2},
+  owner     = {felipestok},
+  publisher = {Springer, Berlin, Heidelberg},
+  timestamp = {2017.09.09},
+  url       = {https://doi.org/10.1007/978-3-642-50235-4_12},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1991-SucciS+BenziR-PhysRevA,
+  author    = {Succi, S. and Vergassola, M. and Benzi, R.},
+  title     = {Lattice Boltzmann scheme for two-dimensional magnetohydrodynamics},
+  journal   = {Physical Review A},
+  year      = {1991},
+  volume    = {43},
+  number    = {8},
+  pages     = {4521},
+  month     = {Apr},
+  abstract  = {It is shown that the lattice Boltzmann equation arising from the basic lattice-gas scheme for Navier-Stokes equations can be extended in such a way as to include the effects of a two-dimensional magnetic field. This offers the possibility of developing new computational schemes for the efficient simulation of incompressible magnetohydrodynamic flows.},
+  doi       = {10.1103/PhysRevA.43.4521},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-SucciS+BenziR-PhysRevA.pdf:PDF},
+  numpages  = {4},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.09},
+  url       = {https://doi.org/10.1103/PhysRevA.43.4521},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1992-QianYH+LallemandP-EurophysLett,
+  author    = {Qian, Y. H. and D'Humi\`eres, D. and Lallemand, P.},
+  title     = {Lattice BGK Models for Navier-Stokes Equation},
+  journal   = {EPL (Europhysics Letters)},
+  year      = {1992},
+  volume    = {17},
+  number    = {6},
+  pages     = {3479--484},
+  month     = {Jan},
+  abstract  = {We propose the lattice $BGK$ models, as an alternative to lattice gases or the lattice Boltzmann equation, to obtain an efficient numerical scheme for the simulation of fluid dynamics. With a properly chosen equilibrium distribution, the Navier-Stokes equation is obtained from the kinetic $BGK$ equation at the second-order of approximation. Compared to lattice gases, the present model is noise-free, has Galileian invariance and a velocity-independent pressure. It involves a relaxation parameter that influences the stability of the new scheme. Numerical simulations are shown to confirm the speed of sound and the shear viscosity.},
+  doi       = {10.1209/0295-5075/17/6/001},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1992-QianYH+LallemandP-EurophysLett.pdf:PDF},
+  numpages  = {6},
+  owner     = {felipestok},
+  publisher = {IOP},
+  timestamp = {2017.09.09},
+  url       = {http://doi.org/10.1209/0295-5075/17/6/001},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2013-HegeleJr+PhilippiPC-JSciComput,
+  author    = {Hegele, Jr., Luiz Adolfo and Keijo Kalervo Mattila and Paulo Cesar Philippi},
+  title     = {Rectangular Lattice-Boltzmann Schemes with BGK-Collision Operator},
+  journal   = {J. Sci. Comput.},
+  year      = {2013},
+  volume    = {56},
+  pages     = {230--242},
+  month     = {December},
+  abstract  = {The usual lattice-Boltzmann schemes for fluid flow simulations operate with square and cubic lattices. Instead of relying on square lattices it is possible to use rectangular and orthorombic lattices as well. Schemes using rectangular lattices can be constructed in several ways. Here we construct a rectangular scheme, with the BGK collision operator, by introducing 2 additional discrete velocities into the standard D2Q9 stencil and show how the same procedure can be applied in three dimensions by extending the D3Q19 stencil. The weights and scaling factors for the new stencils are found as the solutions of the well-known Hermite quadrature problem, assuring isotropy of the lattice tensors up to rank four (Philippi et al., Phys. Rev. E 73(5):056702, 2006) This isotropy is a necessary and sufficient condition for assuring the same second order accuracy of lattice-Boltzmann equation with respect to the Navier–Stokes hydrodynamic equations that is found with the standard D2Q9 and D3Q19 stencils. The numerical validation is done, in the two-dimensional case, by using the new rectangular scheme with D2R11 stencil for simulating the Taylor–Green vortex decay. The D3R23 stencil is numerically validated with three-dimensional simulations of cylindrical sound waves propagating from a point source.},
+  doi       = {10.1007/s10915-012-9672-x},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2013-HegeleJrLA+PhilippiPC-JSciComput.pdf:PDF},
+  owner     = {chris},
+  timestamp = {2016.08.28},
+  url       = {http://link.springer.com/article/10.1007/s10915-012-9672-x},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2013-MattilaKK+PhilippiPC-IntJModPhysC,
+  author    = {Keijo Kalervo Mattila and Diogo Nardelli Siebert and Hegele, Jr., Luiz Adolfo and Paulo Cesar Philippi},
+  title     = {High-order lattice-Boltzmann equations and stencils for multiphase models},
+  journal   = {International Journal of Modern Physics C},
+  year      = {2013},
+  volume    = {24},
+  number    = {12},
+  month     = {December},
+  note      = {1340006},
+  abstract  = {The lattice Boltzmann (LB) method, based on mesoscopic modeling of transport phenomena, appears to be an attractive alternative for the simulation of complex fluid flows. Examples of such complex dynamics are multiphase and multicomponent flows for which several LB models have already been proposed. However, due to theoretical or numerical reasons, some of these models may require application of high-order lattice-Boltzmann equations (LBEs) and stencils. Here, we will present a derivation of LBEs from the discrete-velocity Boltzmann equation (DVBE). By using the method of characteristics, high-order accurate equations are conveniently formulated with standard numerical methods for ordinary differential equations (ODEs). In particular, we will derive implicit LB schemes due to their stability properties. A simple algorithm is presented which enables implementation of the implicit schemes without resorting to, e.g. change of variables. Finally, some numerical experiments with high-order equations and stencils together with two specific multiphase models are presented.},
+  comment   = {15 pages},
+  doi       = {10.1142/S0129183113400068},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2013-MattilaKK+PhilippiPC-IntJModPhysC.pdf:PDF},
+  keywords  = {Lattice-Boltzmann method; high-order scheme; isotropy; multiphase flow},
+  owner     = {chris},
+  timestamp = {2016.08.28},
+  url       = {http://www.worldscientific.com/doi/abs/10.1142/S0129183113400068},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2014-MattilaKK+PhilippiPC-SciWorldJ,
+  author    = {Keijo Kalervo Mattila and Hegele, Jr., Luiz Adolfo and Paulo Cesar Philippi},
+  title     = {High-Accuracy Approximation of High-Rank Derivatives: Isotropic Finite Differences Based on Lattice-Boltzmann Stencils},
+  journal   = {The Scientific World Journal},
+  year      = {2014},
+  volume    = {2014},
+  pages     = {1--16},
+  month     = {January},
+  note      = {Article ID 142907},
+  abstract  = {We propose isotropic finite differences for high-accuracy approximation of high-rank derivatives. These finite differences are
+based on direct application of lattice-Boltzmann stencils. The presented finite-difference expressions are valid in any dimension,
+particularly in two and three dimensions, and any lattice-Boltzmann stencil isotropic enough can be utilized. A theoretical basis
+for the proposed utilization of lattice-Boltzmann stencils in the approximation of high-rank derivatives is established. In particular,
+the isotropy and accuracy properties of the proposed approximations are derived directly from this basis. Furthermore, in this
+formal development, we extend the theory of Hermite polynomial tensors in the case of discrete spaces and present expressions for
+the discrete inner products between monomials and Hermite polynomial tensors. In addition, we prove an equivalency between
+two approaches for constructing lattice-Boltzmann stencils. For the numerical verification of the presented finite differences, we
+introduce 5th-, 6th-, and 8th-order two-dimensional lattice-Boltzmann stencils.},
+  doi       = {10.1155/2014/142907},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2014-MattilaKK+PhilippiPC-SciWorldJ.pdf:PDF},
+  owner     = {chris},
+  timestamp = {2016.08.27},
+  url       = {http://dx.doi.org/10.1155/2014/142907},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2016-PhilippiPC+MattilaKK-JBrazSocMechSci,
+  author    = {P. C. Philippi and D. N. Siebert and L. A. Hegele Jr and K. K. Mattila},
+  title     = {High‐order lattice‐Boltzmann},
+  journal   = {Journal of the Brazilian Society of Mechanical Sciences and Engineering},
+  year      = {2016},
+  volume    = {38},
+  number    = {5},
+  pages     = {1401--1419},
+  month     = {June},
+  abstract  = {Unlike conventional CFD methods, the lattice Boltzmann method (LBM) describes the dynamic behaviour of physical systems in a mesoscopic scale, based on discrete forms of kinetic equations. In addition to the classical collision-propagation scheme in which the physical and velocity spaces are coupled, finite-differences, finite volumes and finite-element schemes have been used for numerically solving the discrete kinetic equations. A major breakthrough in LB theory was the direct derivation of the LB equation from continuous kinetic equations, establishing a systematic link between the kinetic theory and the lattice Boltzmann method and determining the necessary conditions for the discretization of the velocity space. The lattices obtained by this method proved to be stable in flows over a wide range of parameters, by the use of high-order lattice Boltzmann schemes, leading to velocity sets which, when used in a discrete velocity kinetic scheme, ensures accurate recovery of the high-order hydrodynamic moments. This review presents the theoretical background of these kinetic methods. In particular, we focus on high-order discrete forms of the Boltzmann equation suitable for non-ideal fluids and on the lattice-Boltzmann collision-propagation method.},
+  doi       = {10.1007/s40430-015-0441-2},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2016-PhilippiPC+MattilaKK-JBrazSocMechSci.pdf:PDF},
+  keywords  = {Computational fluid dynamics, Mesoscopic modelling, Lattice-Boltzmann, Kinetic methods},
+  owner     = {chris},
+  timestamp = {2016.08.28},
+  url       = {http://link.springer.com/article/10.1007/s40430-015-0441-2},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Book{2018-KrugerT+ViggenEM-Springer,
+  title     = {The lattice {B}oltzmann method --- principles and practice},
+  publisher = {Springer},
+  year      = {2018},
+  author    = {Krüger, Timm and Kusumaatmaja, Halim and Kuzmin, Alexandr and Shardt, Orest and Silva, Goncalo and Viggen, Erlend Magnus},
+  editor    = {Lahee, Angela},
+  series    = {Graduate Texts in Physics},
+  address   = {Switzerland},
+  isbn      = {978-3-319-44647-9},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@article{1973-HardyJ+PazzisO-JMathPhys,
+author = {Hardy, J. and Pomeau, Y. and de Pazzis, O.},
+title = {Time evolution of a two‐dimensional model system. I. Invariant states and time correlation functions},
+journal = {Journal of Mathematical Physics},
+volume = {14},
+number = {12},
+pages = {1746--1759},
+year = {1973},
+doi = {10.1063/1.1666248},
+URL = {https://doi.org/10.1063/1.1666248},
+eprint = {https://doi.org/10.1063/1.1666248},
+}
+@article{1976-HardyJ+PomeauY-PhysRevA,
+  title = {Molecular dynamics of a classical lattice gas: Transport properties and time correlation functions},
+  author = {Hardy, J. and de Pazzis, O. and Pomeau, Y.},
+  journal = {Phys. Rev. A},
+  volume = {13},
+  issue = {5},
+  pages = {1949--1961},
+  numpages = {0},
+  year = {1976},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.13.1949},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.13.1949}
+}
+
+% Encoding: UTF-8
+
+@Article{1986-FrischU+PomeauY-PhysRevLett,
+  author    = {Frisch, U. and Hasslacher, B. and Pomeau, Y.},
+  title     = {Lattice-Gas Automata for the Navier-Stokes Equation},
+  journal   = {Phys. Rev. Letters},
+  year      = {1986},
+  volume    = {56},
+  number    = {14},
+  pages     = {1505--1508},
+  month     = {Apr},
+  abstract  = {We show that a class of deterministic lattice gases with discrete Boolean elements simulates the Navier-Stokes equation, and can be used to design simple, massively parallel computing machines.},
+  doi       = {10.1103/PhysRevLett.56.1505},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1986-FrischU+PomeauY-PhysRevLett.pdf:PDF},
+  numpages  = {4},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.07},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevLett.56.1505},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+@Article{1986-WolframS-JStatPhys,
+author="Wolfram, Stephen",
+title="Cellular automaton fluids 1: Basic theory",
+journal="Journal of Statistical Physics",
+year="1986",
+month="Nov",
+day="01",
+volume="45",
+number="3",
+pages="471--526",
+abstract="Continuum equations are derived for the large-scale behavior of a class of cellular automaton models for fluids. The cellular automata are discrete analogues of molecular dynamics, in which particles with discrete velocities populate the links of a fixed array of sites. Kinetic equations for microscopic particle distributions are constructed. Hydrodynamic equations are then derived using the Chapman-Enskog expansion. Slightly modified Navier-Stokes equations are obtained in two and three dimensions with certain lattices. Viscosities and other transport coefficients are calculated using the Boltzmann transport equation approximation. Some corrections to the equations of motion for cellular automaton fluids beyond the Navier-Stokes order are given.",
+issn="1572-9613",
+doi="10.1007/BF01021083",
+url="https://doi.org/10.1007/BF01021083"
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1987-FrischU+RivetJP-ComplexSyst,
+  author   = {Frisch, U. and d'Humières, D. and Hasslacher, B. and Lallemand, P. and Pomeau, Y. and Rivet, J.-P.},
+  title    = {Lattice Gas Hydrodynamics in Two and Three Dimensions},
+  journal  = {Complex Systems},
+  year     = {1987},
+  volume   = {1},
+  pages    = {649--707},
+  issn     = {0891-2513},
+  abstract = {Hydrodynamical phenomena can be simulated by discrete lattice gas models obeying cellular automata rules [1,2]. It is here shown for a class of D-dimensional lattice gas models how the macrodynamical (large-scale) equations for the densities of microscopically conserved quantities can be systematically derived from the underlying exact "microdynamical" Boolean equations. With suitable restrictions on the crystallographic symmetries of the lattice and after proper limits are taken, various standard fluid dynamical equations are obtained, including the incompressible Navier-Stokes equations in two and three dimensions. The transport coefficients appearing in the macrodynamical equations are obtained using variants of the fluctuation-dissipation theorem and Boltzmann formalisms adapted to fully discrete situations.},
+  url      = {http://www.complex-systems.com/abstracts/v01_i04_a07},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1987-SucciS-JPhysAMathGen,
+  author    = {Succi, Sauro},
+  title     = {Triangular versus square lattice gas automata for the analysis of two-dimensional vortex fields},
+  journal   = {Journal of Physics A: Mathematical and General},
+  year      = {1987},
+  volume    = {21},
+  number    = {1},
+  pages     = {L43--L49},
+  abstract  = {The consequences of the lack of isotropy of the momentum flux tensor of the Hardy-Pomeau-De Pazzis (1976) fluid are discussed. It is shown that this lack of isotropy is tantamount to introducing a force which is incompatible with a correct evolution of two-dimensional vortex configurations. In addition, a qualitative discussion is presented on the physical reasons why this problem can be cured by moving to the six-link lattice introduced by Frisch, Hasslacher and Pomeau (1986).},
+  doi       = {10.1088/0305-4470/21/1/008},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1987-SucciS-JPhysAMathGen.pdf:PDF},
+  numpages  = {8},
+  owner     = {felipestok},
+  publisher = {IOP Publishing Ltd.},
+  timestamp = {2017.09.07},
+  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1088/0305-4470/21/1/008},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1991-AppertC+ZaleskiS-PhysD,
+  author    = {Appert, C\'ecile and Rothman, Daniel H. and Zaleski, St\'ephane},
+  title     = {A liquid-gas model on a lattice},
+  journal   = {Physica D: Nonlinear Phenomena},
+  year      = {1991},
+  volume    = {47},
+  pages     = {85--96},
+  month     = {Jan},
+  abstract  = {We describe a triangular lattice model able to undergo a liquid-gas transition. The model is obtained by adding an attractive force to the Frisch-Hasslacher-Pomeau gas in the form of non-local interaction. Several types of interactions are suggested and their properties are discussed. When the attractive forces are strong enough the model decomposes into a dense and a light phase. The equation of state of the model is analogous to a van der Waals equation. The theoretical prediction of the equation of state, obtained using a Boltzmann or factorization assumption, agrees well with numerical observations. The isotropy of the model is tested by a numerical computation of the two-dimensional power spectrum.},
+  doi       = {10.1016/0167-2789(91)90282-E},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-AppertC+ZaleskiS-PhysD.pdf:PDF},
+  issue     = {1--2},
+  numpages  = {12},
+  owner     = {felipestok},
+  publisher = {Elsevier Science Publishers B.V. (North-Holland)},
+  timestamp = {2017.09.12},
+  url       = {https://doi.org/10.1016/0167-2789(91)90282-E},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1991-BoonJP-PhysD,
+  author    = {Boon, Jean Pierre},
+  title     = {Statistical mechanics and hydrodynamics of lattice gas automata: An overview},
+  journal   = {Physica D: Nonlinear Phenomena},
+  year      = {1991},
+  volume    = {47},
+  pages     = {3--8},
+  month     = {Jan},
+  abstract  = {Some of the issues raised by recent work on lattice gas automata are reviewed.},
+  doi       = {10.1016/0167-2789(91)90272-B},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-BoonJP-PhysD.pdf:PDF},
+  issue     = {1--2},
+  numpages  = {6},
+  owner     = {felipestok},
+  publisher = {Elsevier Science Publishers B.V. (North-Holland)},
+  timestamp = {2017.09.12},
+  url       = {https://doi.org/10.1016/0167-2789(91)90272-B},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1991-ChenS+RoseH-PhysD,
+  author    = {Chen, Shiyi and Chen, Hudong and Doolen, Gary D. and Lee, Y. C. and Rose, H.},
+  title     = {Lattice gas models for nonideal gas fluids},
+  journal   = {Physica D: Nonlinear Phenomena},
+  year      = {1991},
+  volume    = {47},
+  pages     = {97--111},
+  month     = {Jan},
+  abstract  = {A lattice gas model with a nonideal gas equation of state is presented. Transitions between the solid and gas phase are described. Computer simulations of applications of this model to shock waves are discussed. Generalization of this model to liquid crystal flow is also outlined.},
+  doi       = {10.1016/0167-2789(91)90283-F},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1991-ChenS+RoseCH-PhysD.pdf:PDF},
+  issue     = {1--2},
+  numpages  = {15},
+  owner     = {felipestok},
+  publisher = {Elsevier Science Publishers B.V. (North-Holland)},
+  timestamp = {2017.09.12},
+  url       = {https://doi.org/10.1016/0167-2789(91)90283-F},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
