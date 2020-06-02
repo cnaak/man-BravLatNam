@@ -625,3 +625,26 @@ url="https://doi.org/10.1007/BF01021083"
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{1993-QianYH-JSciComput,
+  author    = {Y. H. Qian},
+  title     = {Simulating Thermohydrodynamics with Lattice BGK Models},
+  journal   = {Journal of Scientific Computing},
+  year      = {1993},
+  volume    = {8},
+  pages     = {231--242},
+  issn      = {0885-7474},
+  abstract  = {In this paper, we propose new lattice $BGK$ models for $one$-, $two$- and $three$ dimensional thermohydrodynamics. A proper internal energy is introduced and the energy equation is obtained. The derivation of the thermohydrodynamic equations is systematic and numerical simulations are carried out to verify the theoretical values of the sound speed, the shear viscosity and the conductivity. One-dimensional shock-tube problem and two-dimensional Rayleigh-B\'enard convection are simulated. Good performance and satisfactory results are obtained. These models can be applied to many interesting cases, in particular, the transonic regimes where the compressibility can not be neglected.},
+  doi       = {10.1007/BF01060932},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1993-QianYH-JSciComput.pdf:PDF},
+  keywords  = {Kinetic theory, thermohydrodynamics, computational technique, lattice gas, BGK model.},
+  numpages  = {12},
+  owner     = {felipestok},
+  publisher = {Kluwer Academic Publishers-Plenum Publishers},
+  timestamp = {2017.09.07},
+  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1007/BF01060932},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
