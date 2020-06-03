@@ -948,3 +948,26 @@ author = "R.R. Nourgaliev and T.N. Dinh and T.G. Theofanous and D. Joseph"
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{2006-ChikatamarlaSS+KarlinIL-PhysRevLett,
+  author    = {Chikatamarla, S. S. and Ansumali, S. and Karlin, I. V.},
+  title     = {Entropic Lattice Boltzmann Models for Hydrodynamics in Three Dimensions},
+  journal   = {Phys. Rev. Letters},
+  year      = {2006},
+  volume    = {97},
+  pages     = {010201},
+  month     = {Jul},
+  abstract  = {Efficient, nonlinearly stable entropic lattice Boltzmann models for computational fluid dynamics are presented. A new method of fast evaluation of equilibria to machine precision is proposed. Analytical solution is found for the collision step which guarantees stability and thermodynamic consistency of the scheme. As an example, a novel 15-velocity lattice Boltzmann model is derived and validated with a simulation of a $three$-dimensional backward-facing step flow.},
+  doi       = {10.1103/PhysRevLett.97.010201},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2006-ChikatamarlaSS+KarlinIL-PhysRevLett.pdf:PDF},
+  issue     = {1},
+  numpages  = {4},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.07},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevLett.97.010201},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
