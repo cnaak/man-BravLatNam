@@ -846,3 +846,23 @@ url="https://doi.org/10.1007/BF01021083"
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{2006-ShanX+ChenH-JFluidMech,
+  author    = {Xiaowen Shan and Xue-Feng Yuan and Hudong Chen},
+  title     = {Kinetic theory representation of hydrodynamics: a way beyond the Navier–Stokes equation},
+  journal   = {Journal of Fluid Mechanics},
+  year      = {2006},
+  volume    = {550},
+  pages     = {413--441},
+  month     = {March},
+  abstract  = {We present in detail a theoretical framework for representing hydrodynamic systems through a systematic discretization of the Boltzmann kinetic equation. The work is an extension of a previously proposed formulation. Conventional lattice Boltzmann models can be shown to be directly derivable from this systematic approach. Furthermore, we provide here a clear and rigorous procedure for obtaining higher-order approximations to the continuum Boltzmann equation. The resulting macroscopic moment equations at each level of the systematic discretization give rise to the Navier–Stokes hydrodynamics and those beyond. In addition, theoretical indications to the order of accuracy requirements are given for each discrete approximation, for thermohydrodynamic systems, and for fluid systems involving long-range interactions. All these are important for complex and micro-scale flows and are missing in the conventional Navier–Stokes order descriptions. The resulting discrete Boltzmann models are based on a kinetic representation of the fluid dynamics, hence the drawbacks in conventional higher-order hydrodynamic formulations can be avoided.},
+  doi       = {10.1017/S0022112005008153},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2006-ShanX+ChenH-JFluidMech.pdf:PDF},
+  owner     = {chris},
+  timestamp = {2016.08.28},
+  url       = {http://dx.doi.org/10.1017/S0022112005008153},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
