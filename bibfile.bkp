@@ -788,3 +788,24 @@ url="https://doi.org/10.1007/BF01021083"
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Book{2003-LiboffRL-bookSpringer,
+  title     = {Kinetic Theory: Classical, Quantum, and Relativistic Descriptions},
+  publisher = {Springer},
+  year      = {2003},
+  author    = {Richard L. Liboff},
+  editor    = {R. Stephen Berry and Joseph L. Birman and Mark P. Silverman and H. Eugene Stanley and Mikhail Voloshin},
+  series    = {Graduate Texts in Contemporary Physics},
+  address   = {New York},
+  edition   = {3rd},
+  month     = {September},
+  note      = {572 pages},
+  comment   = {ISBN-13: 978-0387955513},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2003-LiboffRL-bookSpringer.txt:Text},
+  owner     = {chris},
+  timestamp = {2016.08.29},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
