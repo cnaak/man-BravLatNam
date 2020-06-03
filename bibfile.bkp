@@ -879,3 +879,26 @@ url = "http://www.sciencedirect.com/science/article/pii/S0301932202001088",
 author = "R.R. Nourgaliev and T.N. Dinh and T.G. Theofanous and D. Joseph"
 }
 
+% Encoding: UTF-8
+
+@Article{2001-dHumieresD+LallemandP-PhysRevE,
+  author    = {d'Humi\`eres, Dominique and Bouzidi, M'hamed and Lallemand, Pierre},
+  title     = {Thirteen-velocity three-dimensional lattice Boltzmann model},
+  journal   = {Phys. Rev. E},
+  year      = {2001},
+  volume    = {63},
+  pages     = {066702},
+  month     = {May},
+  abstract  = {A thirteen-velocity three-dimensional lattice Boltzmann model on a cubic grid is presented. The transport coefficients derived from the standard Chapman-Enskog expansion are given together with the conditions for isotropy and Galilean invariance. The different invariants of the model are discussed. The results of measurements of drag and torque on a free falling sphere in a cylinder are in good agreement with solutions of the Navier-Stokes equation. Comparison of the time evolution of a freely decaying Taylor-Green vortex computed by fast Fourier transform and by the present model is presented.},
+  doi       = {10.1103/PhysRevE.63.066702},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2001-dHumieresD+LallemandP-PhysRevE.pdf:PDF},
+  issue     = {6},
+  numpages  = {7},
+  owner     = {chris},
+  publisher = {American Physical Society},
+  timestamp = {2016.08.28},
+  url       = {http://journals.aps.org/pre/abstract/10.1103/PhysRevE.63.066702},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
