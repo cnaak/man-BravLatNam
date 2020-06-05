@@ -157,22 +157,18 @@
 
     In these author's discretization framework, the lattice is viewed as a Hermite expansion \emph{quadrature}, and  the  naming
     convention was defined in terms of three parameters, namely, an Euclidean space dimension $D$, a quadrature  velocity  count
-    $d$, and an algebraic degree of precision $n$---so that an order-$N$ Hermite  expansion  requires  a  quadrature  degree  $n
-    \geqslant       2N$---encoded       in       an       `$E_{D,n}^{d}$'       naming       scheme.        Citing        Qian's
-    lattices~\cite{1992-QianYH+LallemandP-EurophysLett}, they established the following comparisons, which were off by a scaling
-    factor: $D2Q9 \propto E_{2,5}^{9}$, $D3Q15 \propto E_{3,5}^{15}$, and $D3Q19 \propto E_{3,5}^{19}$. Since these lattices are
-    of algebraic degree $n=5$, it follows that $N=2$ at most, thus making  them  unsuitable  for  accurate  isothermal  momentum
-    (Navier-Stokes)    description    that,    according    to    the    authors,     requires     a     third-order     Hermite
-    expansion~\cite{2006-ShanX+ChenH-JFluidMech}, i.e., $N \geqslant 3$, which corresponds to a  quadrature  with  a  degree  of
-    precision $n \geqslant 6$.
+    $d$, and an algebraic degree of precision $n$ encoded in an `$E_{D,n}^{d}$' naming scheme---an order-$N$  Hermite  expansion
+    requires      a      quadrature      degree      $n      \geqslant      2N$.      Citing      Qian      and      co-authors'
+    lattices~\cite{1992-QianYH+LallemandP-EurophysLett}, they established the following comparisons, which were off  only  by  a
+    scaling factor: $D2Q9 \propto E_{2,5}^{9}$, $D3Q15 \propto E_{3,5}^{15}$, and $D3Q19 \propto E_{3,5}^{19}$.
 
-    Additionally, reference~\cite{2006-ShanX+ChenH-JFluidMech} has established that Gauss-Hermite quadrature---that yields  both
-    quadrature abscisae and corresponding weights--- of the Boltzmann equation  yield  LB  models  with  \emph{minimum  velocity
-    count} for a given Euclidean spacial dimension, however without the ability to  predefine  (choose)  the  discrete  velocity
-    abscisae, which apart from special cases fails to produce a space-filling, Bravais lattice. For LB methods, this means lower
-    memory requirements with the likely need of interpolation steps due to the necessary decoupling between the spacial and  the
-    momentum discretizations, which introduces spurious numerical diffusion
+    Additionally, they stablished that Gauss-Hermite quadratures of the Boltzmann equation yield LB  models  with  \emph{minimum
+    velocity count} for given degree of precision and Euclidean spacial dimension, without, however, the  ability  to  predefine
+    (choose) the discrete velocity abscisae,  which  apart  from  special  cases  fails  to  produce  a  space-filling,  Bravais
+    lattice---recalling that for LB methods, this means lower memory requirements but decoupled spatial  and  momentum  `meshes'
+    that require interpolations, thus introducing artifacts such as spurious numerical diffusion.
 
+    
 
     In March 2006 it was published the paper of Shan and co-authors~\cite{2006-ShanX+ChenH-JFluidMech} in which macroscopic
     physics and lattice orders were shown to be tied together---so that higher order LB methods solve for progressively more
