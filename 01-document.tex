@@ -168,18 +168,17 @@
     lattice---recalling that for LB methods, this means lower memory requirements but decoupled spatial  and  momentum  `meshes'
     that require interpolations, thus introducing artifacts such as spurious numerical diffusion.
 
-    In the Appendix of  reference~\cite{2006-ShanX+ChenH-JFluidMech},  the  authors  include  a  brief  discussion  on  deriving
-    quadratures on predefined Cartesian abscissae, which is  the  main  requirement  for  space-filling,  Bravais  lattices  for
-    non-interpolating, exact advection LB schemes.
-    
+    In the Appendix of reference~\cite{2006-ShanX+ChenH-JFluidMech}, the authors include a brief discussion  with  some  missing
+    details on deriving quadratures on predefined Cartesian abscissae, which is the main requirement for space-filling,  Bravais
+    lattices for non-interpolating, exact advection LB schemes. Results for the space-filling $E_{2,7}^{17}$ and  $E_{3,7}^{39}$
+    quadratures were listed among the ones obtained with Gauss-Hermite quadratures.
 
-    In March 2006 it was published the paper of Shan and co-authors~\cite{2006-ShanX+ChenH-JFluidMech} in which macroscopic
-    physics and lattice orders were shown to be tied together---so that higher order LB methods solve for progressively more
-    macroscopic physics--- ... Gauss-Hermite quadrature yields minimum-velocity-count lattices of a given order however not
-    necessarily a space-filling, Bravais ones ... short discussion on how to build quadratures of predefined abscissae ...
-    provides 2D quadratures of up to 17 velocities and 7th order .... and 3D ones with up to 39 velocities and 7th order.
+    % Missing details include (i) how to switch from rank-0 polynomial base to the tensorial Hermite one, (ii) and from scalar
+    % argument ξ to a vectorial 𝛏 one.
 
-    In May 2006 came the paper of Philippi and co-authors~\cite{2006-PhilippiPC+SurmasR-PhysRevE} in which the novel method of
+    A sistematic method for obtaining lattice weight values and scaling factor from prescribed velocity abscissas was given by
+    Philippi and co-authors~\cite{2006-PhilippiPC+SurmasR-PhysRevE}; the novel `prescribed abscissas' method...
+
     prescribed abscissas is described, along with a plethora of new, higher-order, multi-velocity lattices derived by it.
 
     % Seek for higher-order lattices (HOL)
