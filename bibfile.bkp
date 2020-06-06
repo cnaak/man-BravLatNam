@@ -1209,3 +1209,26 @@ year = {1949}
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{2008-KimSH+BoydID-JComputPhys,
+  author    = {Kim, Seung Hyun and Pitsch, Heinz and Boyd, Iain D.},
+  title     = {Accuracy of higher-order lattice Boltzmann methods for microscale flows with finite Knudsen numbers},
+  journal   = {Journal of Computational Physics},
+  year      = {2008},
+  volume    = {227},
+  pages     = {8655–-8671},
+  month     = {Jun},
+  abstract  = {Accuracy of the lattice Boltzmann ($LB$) method for microscale flows with finite Knudsen numbers is investigated. We employ up to the eleventh-order Gauss–Hermite quadrature for the lattice velocities and diffuse-scattering boundary condition for fluid–wall interactions. Detailed comparisons with the direct simulation Monte Carlo ($DSMC$) method and the linearized Boltzmann equation are made for planar Couette and Poiseuille flows. All higher-order $LB$ methods considered here give improved results as compared with the standard $LB$ method. The accuracy of the $LB$ hierarchy, however, does not monotonically increase with the order of the Gauss–Hermite quadrature at moderate and large Knudsen numbers. The results also show the sensitivity to a quadrature chosen, even when the Gauss–Hermite quadratures have the same order of formal accuracy. Among the schemes investigated here, $D2Q16$ is the most efficient method and offers a quantitative prediction in the slip and transition regimes. The higher-order $LB$ methods predict the Knudsen layer up to $K_{n}=O(0.1)$. The Knudsen layer, however, rapidly disappears when the Knudsen number approaches unity due to a finite number of the lattice velocities, while it is still present for $K_{n}=O(1)$ in the Boltzmann equation. It is also found that the higher-order $LB$ methods adopted here do not capture the asymptotic behavior of the Boltzmann equation at large Knudsen numbers.},
+  doi       = {10.1016/j.jcp.2008.06.012},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-KimSH+BoydID-JComputPhys.pdf:PDF},
+  keywords  = {Lattice Boltzmann method, Kinetic theory, Microscale flow},
+  numpages  = {17},
+  owner     = {felipestok},
+  publisher = {Elsevier Inc.(North-Holland)},
+  timestamp = {2017.09.07},
+  url       = {https://doi.org/10.1016/j.jcp.2008.06.012},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
