@@ -1185,3 +1185,27 @@ year = {1949}
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Patent{2008-ShanX+ZhangR-USPat,
+  nationality = {United States},
+  number      = {US 2008/0126045 A1},
+  year        = {2008},
+  yearfiled   = {2008},
+  author      = {Shan, XIaowen and Chen, Hudong and Zhang, Raoyang},
+  title       = {Computer simulation of physical processes},
+  language    = {English},
+  assignee    = {Exa Corporation},
+  type        = {patentus},
+  day         = {29},
+  dayfiled    = {29},
+  month       = may,
+  monthfiled  = {May},
+  abstract    = {Simulating a physical process includes storing, in a computer-accessible memory, state vectors for voxels, Where the state vectors correspond to a model and include entries that correspond to particular momentum states of possible momentum states at a voxel. Interaction operations are performed on the state vectors. The interaction operations model interactions between elements of different momentum states according to the model. Move operations performed on the state vectors re?ect movement of elements to new voxels according to the model. The model is adapted to simulate a high-Knudsen number How that has a Knudsen number greater than 0.1.},
+  file        = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-ShanX+ZhangR-USPat.pdf:PDF},
+  owner       = {felipestok},
+  timestamp   = {2017.09.07},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
