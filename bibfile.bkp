@@ -1116,3 +1116,25 @@ year = {1949}
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{2007-SiebertDN+PhilippiPC-IntJModPhysC,
+  author    = {Diogo Nardelli Siebert and Hegele, Jr., Luiz Adolfo and Rodrigo Surmas and dos Santos, Lu\'{\i}s Orlando Emerich and Paulo Cesar Philippi},
+  title     = {Thermal lattice-Boltzmann in two dimensions},
+  journal   = {International Journal of Modern Physics C},
+  year      = {2007},
+  volume    = {18},
+  number    = {4},
+  pages     = {546--555},
+  month     = {April},
+  abstract  = {The velocity discretization is a critical step in deriving the lattice Boltzmann (LBE) from the Boltzmann equation. The velocity discretization problem was considered in a recent paper (Philippi et al., From the continuous to the lattice Boltzmann equation: the discretization problem and thermal models, Physical Review E 73: 56702, 2006) following a new approach and giving the minimal discrete velocity sets in accordance with the order of approximation that is required for the LBE with respect to the Boltzmann equation. As a consequence, two-dimensional lattices and their respective equilibrium distributions were derived and discussed, considering the order of approximation that was required for the LBE. In the present work, a Chapman-Enskog (CE) analysis is performed for deriving the macroscopic transport equations for the mass, momentum and energy for these lattices. The problem of describing the transfer of energy in fluids is discussed in relation with the order of approximation of the LBE model. Simulation of temperature, pressure and velocity steps are also presented to validate the CE analysis.},
+  doi       = {10.1142/S0129183107010784},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2007-SiebertDN+PhilippiPC-IntJModPhysC.pdf:PDF},
+  keywords  = {LBE; thermal models; BGK; quadrature},
+  owner     = {chris},
+  timestamp = {2016.08.28},
+  url       = {http://www.worldscientific.com/doi/abs/10.1142/S0129183107010784},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
