@@ -1095,3 +1095,24 @@ year = {1949}
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{2007-PhilippiPC+DosSantosLOE-IntJModPhysC,
+  author    = {Philippi, Paulo Cesar and Hegele, Luiz Adolfo Jr and Surmas, Rodrigo and Siebert, Diogo Nardelli and Dos Santos, Lu\'is Orlando Emerich},
+  title     = {From the Boltzmann to the lattice-Boltzmann equation: beyond BGK collision models},
+  journal   = {International Journal of Modern Physics C},
+  year      = {2007},
+  volume    = {18},
+  pages     = {556--565},
+  month     = {April},
+  abstract  = {In this work, we present a derivation for the lattice-Boltzmann equation directly from the linearized Boltzmann equation, combining the following main features: multiple relaxation times and thermodynamic consistency in the description of non isothermal compressible flows. The method presented here is based on the discretization of increasingly orde kinetic models of the Boltzmann equation. Following a Gross-Jackson procedure, the linearized collision term is developed in Hermite polynomial tensors and the resulting infinite series is diagonalized after a chosen integer N, establishing the order of approximation of the collision term. The velocity space is discretized, in accordance with a quadrature method based on prescribed abscissas (Philippi et al., Phys. Rev E 73, 056702, 2006). The problem of describing the energy transfer is discussed, in relation with the order of approximation of a two relaxation-times lattice Boltzmann model. The velocity-step, temperature-step and the shock tube problems are investigated, adopting lattices with 37, 53 and 81 velocities.},
+  doi       = {10.1142/S0129183107010796},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2007-PhilippiPC+DosSantosLOE-IntJModPhysC.pdf:PDF},
+  keywords  = {Lattice Boltzmann equation, thermal models, multiple relaxation times.},
+  owner     = {felipestok},
+  timestamp = {2017.09.15},
+  url       = {https://doi.org/10.1142/S0129183107010796},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
