@@ -1138,3 +1138,27 @@ year = {1949}
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
+% Encoding: UTF-8
+
+@Article{2008-ChenH+ShanX-PhysD,
+  author    = {Chen, Hudong and Shan, Xiaowen},
+  title     = {Fundamental conditions for N-th-order accurate lattice Boltzmann models},
+  journal   = {Physica D: Nonlinear Phenomena},
+  year      = {2008},
+  volume    = {237},
+  pages     = {2003--2008},
+  month     = {Aug},
+  abstract  = {In this paper, we theoretically prove a set of fundamental conditions pertaining to discrete velocity sets and corresponding weights. These conditions provide sufficient conditions for a priori formulation of lattice Boltzmann models that automatically admit correct hydrodynamic moments up to any given $N$-th order.},
+  doi       = {10.1016/j.physd.2007.11.010},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-ChenH+ShanX-PhysD.pdf:PDF},
+  issue     = {14--17},
+  keywords  = {Lattice Boltzmann, Hydrodynamic moments},
+  numpages  = {6},
+  owner     = {felipestok},
+  publisher = {Elsevier B.V.(North-Holland)},
+  timestamp = {2017.09.09},
+  url       = {https://doi.org/10.1016/j.physd.2007.11.010},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
