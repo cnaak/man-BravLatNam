@@ -108,6 +108,8 @@
     momentum space discretization was the well-known D2Q9 lattice, referred to in the study as `9-bit BGK model in 2D space' and
     semantic variations thereof.
 
+    % What is BGK??
+
     Nine years after the debut of LB methods, a study~\cite{1997-HeX+LuoLS-PhysRevE} showed that they could be directly  derived
     from    the    continuous    Boltzmann    equation    with    linearized    collision     operator     under     the     BGK
     approximation~\cite{2011-HarrisS-Dover}, while lattice stencils  from  requirements  of  matching  continuous  and  discrete
@@ -213,16 +215,16 @@
     Karlin~\cite{2006-ChikatamarlaSS+KarlinIV-PhysRevLett} set about the problem of LB stencil construction from a discrete form
     of Boltzmann's H-theorem---in which the  $(-H)$  quantity  represents  a  sort  of  generalized  thermodynamic  entropy  for
     non-equilibrium states in the Boltzmann Gas Limit (BGL) that increases according to the second law of  thermodynamics  until
-    equilibrium is reached~\cite{2011-HarrisS-Dover}. By minimizing $H$, i.e., maximizing the entropy,
+    equilibrium is reached~\cite{2011-HarrisS-Dover}. By minimizing $H$,
     %
     \begin{equation}
         H = \sum_{i=1}^{N}f_i\ln\left(\frac{f_i}{w_i}\right),
     \end{equation}
     %
-    \noindent with appropriately chosen weights $w_i$ under a set of macroscopic constraints of mass and energy conservation  as
-    well as constitutive relations for higher-order macroscopic tensors, authors arrived at \emph{explicit} expressions for  the
-    weights $w_i$ and for the stencil reference temperature for several one-dimensional  lattice  models  having  from  3  to  5
-    velocities. Methods obtained by this systematic were named `entropic' LB methods (ELBM).
+    \noindent i.e., maximizing the entropy with appropriately chosen weights $w_i$ under a set  of  macroscopic  constraints  of
+    mass and energy conservation as well as constitutive relations for higher-order  macroscopic  tensors,  authors  arrived  at
+    \emph{explicit} expressions for the weights $w_i$ and for the stencil  reference  temperature  for  several  one-dimensional
+    lattice models having from 3 to 5 velocities. Methods obtained by this systematic were named `entropic' LB methods (ELBM).
 
     Remarkably, due to a pattern in Gauss-Hermite  quadrature~\cite{2003-AnsumaliS+OettingerHC-EuroPhysLett},  Chikatamarla  and
     Karlin       proposed       a       straightforward       way       of       obtaining       higher-dimension        lattice
