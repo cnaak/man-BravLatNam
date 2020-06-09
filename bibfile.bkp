@@ -137,6 +137,18 @@
 
 % Encoding: UTF-8
 
+@PhdThesis{1990-QianYH-Paris,
+  author  = {Qian, Yue Hong},
+  title   = {Lattice gas and lattice kinetic theory applied to the {N}avier-{S}tokes equation},
+  school  = {Université Pierre et Marie Curie},
+  year    = {1990},
+  address = {Paris},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
 @Article{1990-VergassolaM+SucciS-EurophysLett,
   author    = {Vergassola, M. and Benzi, R. and Succi, S.},
   title     = {On the Hydrodynamic Behaviour of the Lattice Boltzmann Equation.},
@@ -336,6 +348,572 @@
   publisher = {IOP},
   timestamp = {2017.09.09},
   url       = {http://doi.org/10.1209/0295-5075/17/6/001},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1993-AlexanderFJ+SterlingJD-PhysRevE,
+  author    = {Alexander, F. J. and Chen, S. and Sterling, J. D.},
+  title     = {Lattice Boltzmann thermohydrodynamics},
+  journal   = {Phys. Rev. E},
+  year      = {1993},
+  volume    = {47},
+  number    = {4},
+  pages     = {R2249--R2252},
+  abstract  = {We introduce a lattice Boltzmann computational scheme capable of modeling thermohydrodynamic flows of monatomic gases. The parallel nature of this approach provides a numerically efficient alternative to traditional methods of computational Auid dynamics. The scheme uses a small number of discrete velocity states and a linear, single-time relaxation collision operator. Numerical simulations in two dimensions agree well with exact solutions for adiabatic sound propagation and Couette Aow with heat transfer.},
+  doi       = {10.1103/PhysRevE.47.R2249},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1993-AlexanderFJ+SterlingJD-PhysRevE.pdf:PDF},
+  numpages  = {4},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.07},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevE.47.R2249},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1993-QianYH-JSciComput,
+  author    = {Y. H. Qian},
+  title     = {Simulating Thermohydrodynamics with Lattice BGK Models},
+  journal   = {Journal of Scientific Computing},
+  year      = {1993},
+  volume    = {8},
+  pages     = {231--242},
+  issn      = {0885-7474},
+  abstract  = {In this paper, we propose new lattice $BGK$ models for $one$-, $two$- and $three$ dimensional thermohydrodynamics. A proper internal energy is introduced and the energy equation is obtained. The derivation of the thermohydrodynamic equations is systematic and numerical simulations are carried out to verify the theoretical values of the sound speed, the shear viscosity and the conductivity. One-dimensional shock-tube problem and two-dimensional Rayleigh-B\'enard convection are simulated. Good performance and satisfactory results are obtained. These models can be applied to many interesting cases, in particular, the transonic regimes where the compressibility can not be neglected.},
+  doi       = {10.1007/BF01060932},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1993-QianYH-JSciComput.pdf:PDF},
+  keywords  = {Kinetic theory, thermohydrodynamics, computational technique, lattice gas, BGK model.},
+  numpages  = {12},
+  owner     = {felipestok},
+  publisher = {Kluwer Academic Publishers-Plenum Publishers},
+  timestamp = {2017.09.07},
+  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1007/BF01060932},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1994-ChenY+AkiyamaM-PhysRevE,
+  author    = {Chen, Y. and Ohashi, H. and Akiyama, M.},
+  title     = {Thermal lattice {B}hatnagar-{G}ross-{K}rook model without nonlinear deviations in macrodynamic equations},
+  journal   = {Phys. Rev. E},
+  year      = {1994},
+  volume    = {50},
+  number    = {4},
+  pages     = {2776--2783},
+  month     = {October},
+  abstract  = {We present a thermal lattice Bhatnager-Gross-Krook ($BGK$) model in $D$-dimensional space for the numerical simulation of Quid dynamics. This model uses a higher-order velocity expansion for Maxwellian-type equilibrium distribution. In the meantime, the lattice symmetry has been upgraded to ensure isotropy for the sixth-rank velocity-moment tensor. These manipulations lead to macroscopic equations without the nonlinear deviations, from which conventional thermal or nonthermal lattice $BGK$ models suffered. We demonstrate the improvements by conducting classical Chapman-Enskog analysis and by the numerical calculation of the structure of the shock wave front and the decaying rate of the kinetic energy in the shear wave Bow. Parameters in the velocity expansion are explicitly given for example models in one, two, and three dimensions. The transport coeRcients of the modeled one-dimensional ($1D$) and $2D$ Huids are numerically measured as well.},
+  doi       = {10.1103/PhysRevE.50.2776},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1994-ChenY+AkiyamaM-PhysRevE.pdf:PDF},
+  issue     = {4},
+  numpages  = {8},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.07},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevE.50.2776},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1996-HeX+DemboM-JComputPhys,
+  author    = {He, Xiaoyi and Luo, Li-Shi and Dembo, Micah},
+  title     = {Some Progress in Lattice Boltzmann Method. Part I. Nonuniform Mesh Grids},
+  journal   = {Journal of Computational Physics},
+  year      = {1996},
+  volume    = {129},
+  number    = {0255},
+  pages     = {357--363},
+  abstract  = {A new lattice Boltzmann algorithm is proposed to simulate the Navier–Stokes equation on arbitrary nonuniform mesh grids. The new algorithm retains the advantages of the lattice Boltzmann method: parallel of algorithm, ease of programming, and ability to  incorporate microscopic interactions. A simulation of flow in a twodimensional symmetric channel with sudden expansion is carried out using the new algorithm on a nonuniform mesh. The results of the simulation are in excellent agreement with previous experimen-floatingtal and numerical results.},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1996-HeX+DemboM-JComputPhys.pdf:PDF},
+  owner     = {felipestok},
+  timestamp = {2017.09.07},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1997-HeX+LuoLS-PhysRevE,
+  author    = {Xiaoyi He and Li-Shi Luo},
+  title     = {Theory of the lattice Boltzmann method: From the Boltzmann equation to the lattice Boltzmann equation},
+  journal   = {Phys. Rev. E},
+  year      = {1997},
+  volume    = {56},
+  number    = {6},
+  pages     = {6811--6817},
+  month     = {December},
+  abstract  = {In this paper, the lattice Boltzmann equation is directly derived from the Boltzmann equation. It is shown that the lattice Boltzmann equation is a special discretized form of the Boltzmann equation. Various approximations for the discretization of the Boltzmann equation in both time and phase space are discussed in detail. A general procedure to derive the lattice Boltzmann model from the continuous Boltzmann equation is demonstrated explicitly. The lattice Boltzmann models derived include the two-dimensional 6-bit, 7-bit, and 9-bit, and three-dimensional 27-bit models.},
+  doi       = {10.1103/PhysRevE.56.6811},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1997-HeX+LuoLS-PhysRevE.pdf:PDF},
+  owner     = {chris},
+  review    = {Read on Sun, 2016-03-13. Written on a time in which lattice Boltzmann methods, LBM, were mainly, if not only, derived from lattice gas automata, LGA, the article presents the derivation of the lattice-Boltzmann equation, LBE, directly from the continuous Boltzmann equation with the approximation of linearization of the collision operator and the Bhatnagar-Gross-Krook, BGK, approximation with a single relaxation time. The article sheds light on the reasons why the method had not enjoyed success in simulating thermohydrodynamic systems before, refs [19--22], and afirms that the SRT BGK approximation is ``sufficient for the purpose of studying hydrodynamics of simple fluids''. It provides a clear, accessible, step-by-step presentation of the discretization of the Boltzmann equation, covering the following requirements: continuous Boltzmann equation without body/external-force term and velocity moments of the single-particle PDF, Section II; discretization in time, Section II-a, calculation of hydrodynamic moments from the discretized data, Section II-b; derivation of the LBE and its EDF, along with its ingredients, Section III; low-Mach number approximation of the EDF, Section III-a; discretization of phase space, Section III-b. In Section IV, some well-known, low order LBE models, such as the D2Q6, D2Q7, D2Q9, and D3Q27, are derived. Some unknown methods are cited, such as the Radau-Gauss numerical integration formula from ref. [35], after which the reading becomes way less clear. The following discussion is confused, as a so-called gas ``speed of light'' and ``speed of sound'' are mentioned, as well as the weights $w_a$ are simply presented, without further explanation. There are $W_a$ and $w_a$ weights in the text. Excellent material to base a presentation of up the the LBE equation, without applying it to a particular lattice configuration. This paper confirms that the integral of vector d\xi expands into multiple (=# of dimensions) integrals of velocity direction and magnitude---hence, of polar form, Eq (20). Paper refs[35, 36] are of fundamentally needed mathematical formulations on numerical quadratures: those of Radau-Gauss and Hermite-Gauss over the half-real axis.},
+  timestamp = {2016.03.16},
+  url       = {http://journals.aps.org/pre/abstract/10.1103/PhysRevE.56.6811},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1998-ChenS+DoolenGD-AnnuRevFluidMech,
+  author    = {Chen, Shiyi and Doolen, Gary D.},
+  title     = {Lattice boltzmann method for fluid flows},
+  journal   = {Annual Review of Fluid Mechanics},
+  year      = {1998},
+  volume    = {30},
+  pages     = {329--364},
+  month     = {Dec},
+  abstract  = {We present an overview of the lattice Boltzmann method ($LBM$), a parallel and efficient algorithm for simulating single-phase and multiphase fluid flows and for incorporating additional physical complexities. The $LBM$ is especially useful for modeling complicated boundary conditions and multiphase interfaces. Recent extensions of this method are described, including simulations of fluid turbulence, suspension flows, and reaction diffusion systems.},
+  doi       = {10.1146/annurev.fluid.30.1.329},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1998-ChenS+DoolenGD-AnnuRevFluidMech.pdf:PDF},
+  numpages  = {36},
+  owner     = {felipestok},
+  publisher = {Annual Reviews Inc.},
+  timestamp = {2017.09.07},
+  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1146/annurev.fluid.30.1.329},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{1998-PavloP+VahalaL-PhysRevLett,
+  author    = {Pavlo, Pavol and Vahala, George and Vahala, Linda},
+  title     = {Higher order isotropic velocity grids in lattice methods},
+  journal   = {Phys. Rev. Letters},
+  year      = {1998},
+  volume    = {80},
+  number    = {18},
+  pages     = {3960--3963},
+  month     = {May},
+  abstract  = {Kinetic lattice methods are a very attractive representation of nonlinear macroscopic systems because of their inherent parallelizability on multiple processors and their avoidance of the nonlinear convective terms. By uncoupling the velocity lattice from the spatial grid, one can employ higher order (non-space-filling) isotropic lattices—lattices which greatly enhance the stable parameter regions, particularly in thermal problems. In particular, the superiority of the octagonal lattice over previous models used in $2D$ (hexagonal or square) and $3D$ (projected face-centered hypercube) is shown.},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1998-PavloP+VahalaL-PhysRevLett.pdf:PDF},
+  issue     = {18},
+  numpages  = {34},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.07},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2001-dHumieresD+LallemandP-PhysRevE,
+  author    = {d'Humi\`eres, Dominique and Bouzidi, M'hamed and Lallemand, Pierre},
+  title     = {Thirteen-velocity three-dimensional lattice Boltzmann model},
+  journal   = {Phys. Rev. E},
+  year      = {2001},
+  volume    = {63},
+  pages     = {066702},
+  month     = {May},
+  abstract  = {A thirteen-velocity three-dimensional lattice Boltzmann model on a cubic grid is presented. The transport coefficients derived from the standard Chapman-Enskog expansion are given together with the conditions for isotropy and Galilean invariance. The different invariants of the model are discussed. The results of measurements of drag and torque on a free falling sphere in a cylinder are in good agreement with solutions of the Navier-Stokes equation. Comparison of the time evolution of a freely decaying Taylor-Green vortex computed by fast Fourier transform and by the present model is presented.},
+  doi       = {10.1103/PhysRevE.63.066702},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2001-dHumieresD+LallemandP-PhysRevE.pdf:PDF},
+  issue     = {6},
+  numpages  = {7},
+  owner     = {chris},
+  publisher = {American Physical Society},
+  timestamp = {2016.08.28},
+  url       = {http://journals.aps.org/pre/abstract/10.1103/PhysRevE.63.066702},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Book{2003-LiboffRL-bookSpringer,
+  title     = {Kinetic Theory: Classical, Quantum, and Relativistic Descriptions},
+  publisher = {Springer},
+  year      = {2003},
+  author    = {Richard L. Liboff},
+  editor    = {R. Stephen Berry and Joseph L. Birman and Mark P. Silverman and H. Eugene Stanley and Mikhail Voloshin},
+  series    = {Graduate Texts in Contemporary Physics},
+  address   = {New York},
+  edition   = {3rd},
+  month     = {September},
+  note      = {572 pages},
+  comment   = {ISBN-13: 978-0387955513},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2003-LiboffRL-bookSpringer.txt:Text},
+  owner     = {chris},
+  timestamp = {2016.08.29},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@article{2003-NourgalievRR+JosephD-IntJMulFlow,
+title = "The lattice Boltzmann equation method: theoretical interpretation, numerics and implications",
+journal = "International Journal of Multiphase Flow",
+volume = "29",
+number = "1",
+pages = "117 - 169",
+year = "2003",
+issn = "0301-9322",
+doi = "https://doi.org/10.1016/S0301-9322(02)00108-8",
+url = "http://www.sciencedirect.com/science/article/pii/S0301932202001088",
+author = "R.R. Nourgaliev and T.N. Dinh and T.G. Theofanous and D. Joseph"
+}
+
+% Encoding: UTF-8
+
+@Article{2003-WatariM+TsutaharaM-PhysRevE,
+  author    = {Watari, Minoru and Tsutahara, Michihisa},
+  title     = {Two-dimensional thermal model of the finite-difference lattice Boltzmann method with high spatial isotropy},
+  journal   = {Phys. Rev. E},
+  year      = {2003},
+  volume    = {67},
+  pages     = {036306},
+  month     = {Mar},
+  abstract  = {The existing lattice Boltzmann method multispeed thermal models show a limited accuracy. This paper proposes a two-dimensional multispeed thermal model for the finite-difference lattice Boltzmann method ($FDLBM$). To recover correct fluid equations, up to fourth orders of local flow velocity should be retained in the local equilibrium distribution function and tensors of particle velocities should have up to seventh rank isotropy. In the $FDLBM$, particle velocities can be selected independently from the lattice configuration. Therefore, particle velocities of octagonal directions, which have up to seventh rank isotropic tensors, are adopted. The proposed model was verified by two simulations. The model showed excellent numerical stability in addition to strict accuracy.},
+  doi       = {10.1103/PhysRevE.67.036306},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2003-WatariM+TsutaharaM-PhysRevE.pdf:PDF},
+  issue     = {3},
+  numpages  = {7},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.09},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevE.67.036306},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2005-LuXY-IntJModPhysC,
+  author    = {Lu, Xiao-Yang and Zhang, Chao-Ying and Liu, Mu-Ren and Kong, Ling-Jiang and Li, Hua-Bing},
+  title     = {Thermal lattice boltzmann simulation of viscous flow in a square cavity},
+  journal   = {International Journal of Modern Physics C},
+  year      = {2005},
+  volume    = {16},
+  pages     = {867--877},
+  month     = {Jun},
+  abstract  = {The $13$-speed thermal lattice Bhatnagar-Gross-Krook model on hexagonal lattice is a single relaxation time model with an adjustable parameter $\lambda$ which makes the Prandtl number tunable. This model maintains the simplicity of the lattice Boltzmann method ($LBM$) and is also suitable for various thermal fuids. In this paper, it is applied to simulations of the lid-driven flow in a square cavity at a wide range of Reynolds numbers. Numerical experiments show that this model can give the same accurate results as those by the conventional numerical methods.},
+  doi       = {10.1142/S0129183105007583},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2005-LuXY-IntJModPhysC.pdf:PDF},
+  keywords  = {Thermal lattice Boltzmann method, Reynolds number, Prandtl number, cavity flow.},
+  numpages  = {6},
+  owner     = {felipestok},
+  publisher = {World Scienti c Publishing Company},
+  timestamp = {2017.09.07},
+  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1142/S0129183105007583},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2006-ChikatamarlaSS+KarlinIV-PhysRevLett,
+  author    = {Chikatamarla, Shyam S. and Karlin, Iliya V},
+  title     = {Entropy and Galilean Invariance of Lattice Boltzmann Theories},
+  journal   = {Physical Review Letters},
+  year      = {2006},
+  volume    = {97},
+  pages     = {190601},
+  month     = {Nov},
+  abstract  = {A theory of lattice Boltzmann $(LB)$ models for hydrodynamic simulation is developed upon a novel relation between entropy construction and roots of Hermite polynomials. A systematic procedure is described for constructing numerically stable and complete Galilean invariant $LB$ models. The stability of the new $LB$ models is illustrated with a shock tube simulation.},
+  doi       = {10.1103/PhysRevLett.97.190601},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/stdRef/refs-2009-SurmasR+PhilippiPC-EurPhysJSpecialTopics/2006-ChikatamarlaSS+KarlinIV-PhysRevLett.pdf:PDF},
+  numpages  = {4},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.10.04},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevLett.97.190601},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2006-PhilippiPC+SurmasR-PhysRevE,
+  author    = {Philippi, Paulo C. and Hegele, Luiz A. and dos Santos, Lu\'{\i}s O. E. and Surmas, Rodrigo},
+  title     = {From the continuous to the lattice Boltzmann equation: The discretization problem and thermal models},
+  journal   = {Phys. Rev. E},
+  year      = {2006},
+  volume    = {73},
+  pages     = {056702},
+  month     = {May},
+  abstract  = {The velocity discretization is a critical step in deriving the lattice Boltzmann (LBE) from the continuous Boltzmann equation. This problem is considered in the present paper, following an alternative approach and giving the minimal discrete velocity sets in accordance with the order of approximation that is required for the LBE with respect to the continuous Boltzmann equation and with the lattice structure. Considering $N$ to be the order of the polynomial approximation to the Maxwell-Boltzmann equilibrium distribution, it is shown that solving the discretization problem is equivalent to finding the inner product in the discrete space induced by the inner product in the continuous space that preserves the norm and the orthogonality of the Hermite polynomial tensors in the Hilbert space generated by the functions that map the velocity space onto the real numbers space. As a consequence, it is shown that, for each order $N$ of approximation, the even-parity velocity tensors are isotropic up to rank $2N$ in the discrete space. The norm and the orthogonality restrictions lead to space-filling lattices with increased dimensionality when compared with presently known lattices. This problem is discussed in relation with a discretization approach based on a finite set of orthogonal functions in the discrete space. Two-dimensional square lattices intended to be used in thermal problems and their respective equilibrium distributions are presented and discussed.},
+  doi       = {10.1103/PhysRevE.73.056702},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2006-PhilippiPC+SurmasR-PhysRevE.pdf:PDF},
+  issue     = {5},
+  numpages  = {12},
+  owner     = {chris},
+  publisher = {American Physical Society},
+  timestamp = {2016.08.28},
+  url       = {http://link.aps.org/doi/10.1103/PhysRevE.73.056702},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2006-ShanX+ChenH-JFluidMech,
+  author    = {Xiaowen Shan and Xue-Feng Yuan and Hudong Chen},
+  title     = {Kinetic theory representation of hydrodynamics: a way beyond the Navier–Stokes equation},
+  journal   = {Journal of Fluid Mechanics},
+  year      = {2006},
+  volume    = {550},
+  pages     = {413--441},
+  month     = {March},
+  abstract  = {We present in detail a theoretical framework for representing hydrodynamic systems through a systematic discretization of the Boltzmann kinetic equation. The work is an extension of a previously proposed formulation. Conventional lattice Boltzmann models can be shown to be directly derivable from this systematic approach. Furthermore, we provide here a clear and rigorous procedure for obtaining higher-order approximations to the continuum Boltzmann equation. The resulting macroscopic moment equations at each level of the systematic discretization give rise to the Navier–Stokes hydrodynamics and those beyond. In addition, theoretical indications to the order of accuracy requirements are given for each discrete approximation, for thermohydrodynamic systems, and for fluid systems involving long-range interactions. All these are important for complex and micro-scale flows and are missing in the conventional Navier–Stokes order descriptions. The resulting discrete Boltzmann models are based on a kinetic representation of the fluid dynamics, hence the drawbacks in conventional higher-order hydrodynamic formulations can be avoided.},
+  doi       = {10.1017/S0022112005008153},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2006-ShanX+ChenH-JFluidMech.pdf:PDF},
+  owner     = {chris},
+  timestamp = {2016.08.28},
+  url       = {http://dx.doi.org/10.1017/S0022112005008153},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2006-WatariM+TsutaharaM-PhysA,
+  author    = {Watari, Minoru and Tsutahara, Michihisa},
+  title     = {Supersonic flow simulations by a three-dimensional multispeed thermal model of the finite difference lattice Boltzmann method},
+  journal   = {Physica A: Statistical Mechanics and its Applications},
+  year      = {2006},
+  volume    = {364},
+  pages     = {129--144},
+  month     = {May},
+  abstract  = {A three-dimensional multispeed thermal model of the finite difference lattice Boltzmann method ($FDLBM$) is proposed. In the $FDLBM$ we can select particle velocities independently from the lattice configuration. Particle velocities of the proposed model consist of vectors pointing to the vertex from the center of a dodecahedron and icosahedron. The model stably performs simulations in a wide range, from subsonic to supersonic flows. To verify the model, simulations of Couette flow, normal shock wave and supersonic nozzle are performed. All results agree with the theoretical predictions.},
+  doi       = {10.1016/j.physa.2005.06.103},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2006-WatariM+TsutaharaM-PhysA.pdf:PDF},
+  keywords  = {Finite difference, Lattice Boltzmann method, Three-dimensional, Couette flow, Supersonic flow, Laval nozzle, Normal shock},
+  numpages  = {16},
+  owner     = {felipestok},
+  publisher = {Elsevier B.V.(North-Holland)},
+  timestamp = {2017.09.07},
+  url       = {https://doi.org/10.1016/j.physa.2005.06.103},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@MastersThesis{2007-OrtizCEP-DrUFSC,
+  author    = {Ortiz, Carlos Henrique Pico},
+  title     = {Aplica\c{c}\~ao das Formas Discretas da Equa\c{c}\~ao de Boltzmann \`a Termo-hidrodin\^amica de Misturas},
+  school    = {Universidade Federal de Santa Catarina},
+  year      = {2007},
+  type      = {phdthesis},
+  month     = aug,
+  abstract  = {In this work is shown a formal and systematic derivation procedure of a set of differential equations, in space $(x; t)$, from the Boltzmann transport equation, in space $(x; c; t)$, which transfer equations represent properly the thermohydrodynamics of a compressible fluid. For this purpose, the particle distribution function was expanded in a base of the Hilbert space of functions, spanned by the Hermite polynomial tensors of the molecular velocity c, which weight function can be identified as a global Maxwellian distribution function. The truncation order of this series is the one required to obtain the Navier-Stokes-Fourier equations, through the asymptotic Chapman-Enskog analysis. The velocity space was driscretized in order to guarantee that the moments of the approximation to the distribution function can be accurately represented by a quadrature formula. Solutions to the quadrature problem in two and three dimensions, for several approximation orders, were shown and discussed, mainly the relation between the regular cartesian solutions and the Lattice Boltzmann Method $(LBM)$. The solution of the resulting set of partial differential equations of $f_{i}(x; t)$ was accomplished by explicit finite difference method. The method allows for a consistent treatment of the hydrodynamics equations of mixtures of gases with non-homogeneous temperature fields and with different molecular mass components. The procedure was verified by the implementation of a BGK model for simple gases and binary mixtures of gases, with one and three relaxation parameters, respectively. A Chapman-Enskog analysis of the implemented models was developed to obtain the explicit forms of the difusive mass flux, the pressure tensor and the heat flux, and the transport coeficients: binary difusion coefcient, viscosity and thermal conductivity. These results were compared satisfactorily against analytical solutions of the advection-difusion equation with several initial conditions.},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/stdRef/refs-2009-SurmasR+PhilippiPC-EurPhysJSpecialTopics/2007-OrtizCEP-DrUFSC.pdf:PDF},
+  keywords  = {Lattice Boltzmann Method; Discrete Boltzmann Equation; Kinetic theory of mixtures},
+  owner     = {felipestok},
+  timestamp = {2017.10.04},
+  url       = {https://repositorio.ufsc.br/xmlui/bitstream/handle/123456789/90489/250557.pdf?sequence=1},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2007-PhilippiPC+DosSantosLOE-IntJModPhysC,
+  author    = {Philippi, Paulo Cesar and Hegele, Luiz Adolfo Jr and Surmas, Rodrigo and Siebert, Diogo Nardelli and Dos Santos, Lu\'is Orlando Emerich},
+  title     = {From the Boltzmann to the lattice-Boltzmann equation: beyond BGK collision models},
+  journal   = {International Journal of Modern Physics C},
+  year      = {2007},
+  volume    = {18},
+  pages     = {556--565},
+  month     = {April},
+  abstract  = {In this work, we present a derivation for the lattice-Boltzmann equation directly from the linearized Boltzmann equation, combining the following main features: multiple relaxation times and thermodynamic consistency in the description of non isothermal compressible flows. The method presented here is based on the discretization of increasingly orde kinetic models of the Boltzmann equation. Following a Gross-Jackson procedure, the linearized collision term is developed in Hermite polynomial tensors and the resulting infinite series is diagonalized after a chosen integer N, establishing the order of approximation of the collision term. The velocity space is discretized, in accordance with a quadrature method based on prescribed abscissas (Philippi et al., Phys. Rev E 73, 056702, 2006). The problem of describing the energy transfer is discussed, in relation with the order of approximation of a two relaxation-times lattice Boltzmann model. The velocity-step, temperature-step and the shock tube problems are investigated, adopting lattices with 37, 53 and 81 velocities.},
+  doi       = {10.1142/S0129183107010796},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2007-PhilippiPC+DosSantosLOE-IntJModPhysC.pdf:PDF},
+  keywords  = {Lattice Boltzmann equation, thermal models, multiple relaxation times.},
+  owner     = {felipestok},
+  timestamp = {2017.09.15},
+  url       = {https://doi.org/10.1142/S0129183107010796},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2007-SiebertDN+PhilippiPC-IntJModPhysC,
+  author    = {Diogo Nardelli Siebert and Hegele, Jr., Luiz Adolfo and Rodrigo Surmas and dos Santos, Lu\'{\i}s Orlando Emerich and Paulo Cesar Philippi},
+  title     = {Thermal lattice-Boltzmann in two dimensions},
+  journal   = {International Journal of Modern Physics C},
+  year      = {2007},
+  volume    = {18},
+  number    = {4},
+  pages     = {546--555},
+  month     = {April},
+  abstract  = {The velocity discretization is a critical step in deriving the lattice Boltzmann (LBE) from the Boltzmann equation. The velocity discretization problem was considered in a recent paper (Philippi et al., From the continuous to the lattice Boltzmann equation: the discretization problem and thermal models, Physical Review E 73: 56702, 2006) following a new approach and giving the minimal discrete velocity sets in accordance with the order of approximation that is required for the LBE with respect to the Boltzmann equation. As a consequence, two-dimensional lattices and their respective equilibrium distributions were derived and discussed, considering the order of approximation that was required for the LBE. In the present work, a Chapman-Enskog (CE) analysis is performed for deriving the macroscopic transport equations for the mass, momentum and energy for these lattices. The problem of describing the transfer of energy in fluids is discussed in relation with the order of approximation of the LBE model. Simulation of temperature, pressure and velocity steps are also presented to validate the CE analysis.},
+  doi       = {10.1142/S0129183107010784},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2007-SiebertDN+PhilippiPC-IntJModPhysC.pdf:PDF},
+  keywords  = {LBE; thermal models; BGK; quadrature},
+  owner     = {chris},
+  timestamp = {2016.08.28},
+  url       = {http://www.worldscientific.com/doi/abs/10.1142/S0129183107010784},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2007-WatariM-PhysA,
+  author    = {Watari, Minoru},
+  title     = {Finite difference lattice Boltzmann method with arbitrary specific heat ratio applicable to supersonic flow simulations},
+  journal   = {Physica A: Statistical Mechanics and its Applications},
+  year      = {2007},
+  volume    = {382},
+  pages     = {502--522},
+  month     = {Aug},
+  abstract  = {The current finite difference lattice Boltzmann method ($FDLBM$) gives a fixed specific heat ratio because internal energy is limited to the translational freedom of the space. Yan et al. and Kataoka et al. clarified the conditions for deriving models with arbitrary specific heat ratio and proposed Euler models. However, these model applications to numerical simulations showed the weakness in the numerical stability. In this paper, a two-dimensional $FDLBM$ Navier Stokes model and a three-dimensional $FDLBM$ Euler model, which allow arbitrary values to be set for the specific heat ratio, were proposed. These models stably performed numerical simulations from subsonic to supersonic ranges.},
+  doi       = {10.1016/j.physa.2007.03.037},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2007-WatariM-PhysA.pdf:PDF},
+  keywords  = {Finite difference, Lattice Boltzmann method, Two-dimensional, Three-dimensional, Sound speed, Couette flow, Normal shock, Supersonic nozzle flow},
+  numpages  = {21},
+  owner     = {felipestok},
+  publisher = {Elsevier B.V.(North-Holland)},
+  timestamp = {2017.09.07},
+  url       = {https://doi.org/10.1016/j.physa.2007.03.037},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2008-ChenH+ShanX-PhysD,
+  author    = {Chen, Hudong and Shan, Xiaowen},
+  title     = {Fundamental conditions for N-th-order accurate lattice Boltzmann models},
+  journal   = {Physica D: Nonlinear Phenomena},
+  year      = {2008},
+  volume    = {237},
+  pages     = {2003--2008},
+  month     = {Aug},
+  abstract  = {In this paper, we theoretically prove a set of fundamental conditions pertaining to discrete velocity sets and corresponding weights. These conditions provide sufficient conditions for a priori formulation of lattice Boltzmann models that automatically admit correct hydrodynamic moments up to any given $N$-th order.},
+  doi       = {10.1016/j.physd.2007.11.010},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-ChenH+ShanX-PhysD.pdf:PDF},
+  issue     = {14--17},
+  keywords  = {Lattice Boltzmann, Hydrodynamic moments},
+  numpages  = {6},
+  owner     = {felipestok},
+  publisher = {Elsevier B.V.(North-Holland)},
+  timestamp = {2017.09.09},
+  url       = {https://doi.org/10.1016/j.physd.2007.11.010},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2008-KimSH+BoydID-JComputPhys,
+  author    = {Kim, Seung Hyun and Pitsch, Heinz and Boyd, Iain D.},
+  title     = {Accuracy of higher-order lattice Boltzmann methods for microscale flows with finite Knudsen numbers},
+  journal   = {Journal of Computational Physics},
+  year      = {2008},
+  volume    = {227},
+  pages     = {8655–-8671},
+  month     = {Jun},
+  abstract  = {Accuracy of the lattice Boltzmann ($LB$) method for microscale flows with finite Knudsen numbers is investigated. We employ up to the eleventh-order Gauss–Hermite quadrature for the lattice velocities and diffuse-scattering boundary condition for fluid–wall interactions. Detailed comparisons with the direct simulation Monte Carlo ($DSMC$) method and the linearized Boltzmann equation are made for planar Couette and Poiseuille flows. All higher-order $LB$ methods considered here give improved results as compared with the standard $LB$ method. The accuracy of the $LB$ hierarchy, however, does not monotonically increase with the order of the Gauss–Hermite quadrature at moderate and large Knudsen numbers. The results also show the sensitivity to a quadrature chosen, even when the Gauss–Hermite quadratures have the same order of formal accuracy. Among the schemes investigated here, $D2Q16$ is the most efficient method and offers a quantitative prediction in the slip and transition regimes. The higher-order $LB$ methods predict the Knudsen layer up to $K_{n}=O(0.1)$. The Knudsen layer, however, rapidly disappears when the Knudsen number approaches unity due to a finite number of the lattice velocities, while it is still present for $K_{n}=O(1)$ in the Boltzmann equation. It is also found that the higher-order $LB$ methods adopted here do not capture the asymptotic behavior of the Boltzmann equation at large Knudsen numbers.},
+  doi       = {10.1016/j.jcp.2008.06.012},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-KimSH+BoydID-JComputPhys.pdf:PDF},
+  keywords  = {Lattice Boltzmann method, Kinetic theory, Microscale flow},
+  numpages  = {17},
+  owner     = {felipestok},
+  publisher = {Elsevier Inc.(North-Holland)},
+  timestamp = {2017.09.07},
+  url       = {https://doi.org/10.1016/j.jcp.2008.06.012},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2008-RubinsteinR+LuoLS-PhysRev,
+  author    = {Rubinstein, Robert and Luo, Li-Shi},
+  title     = {Theory of the lattice Boltzmann equation: symmetry properties of discrete velocity sets},
+  journal   = {Phys. Rev. E},
+  year      = {2008},
+  volume    = {77},
+  pages     = {036709},
+  month     = {Mar},
+  abstract  = {The lattice Boltzmann equation replaces continuous particle velocity space by a finite set; the velocity distribution function then varies over a finite-dimensional vector space instead of over an infinite-dimensional function space. The number of linearly independent moments of the distribution function in a lattice Boltzmann model cannot exceed the number of velocities; finite dimensionality therefore necessarily induces linear dependences among the moments that do not exist in a continuous theory. Given a finite velocity set, it is important to know which moments are free of these dependences. Elementary group theory is applied to the solution of this problem. It is found that decomposing the velocity set into subsets that transform among themselves under an appropriate symmetry group makes it straightforward to uncover linear dependences among the moments. The construction of some standard two- and three-dimensional models is reviewed from this viewpoint, and procedures for constructing higher-dimensional models are suggested.},
+  doi       = {10.1103/PhysRevE.77.036709},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-RubinsteinR+LuoLS-PhysRev.pdf:PDF},
+  issue     = {3},
+  numpages  = {11},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.07},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevE.77.036709},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Patent{2008-ShanX+ZhangR-USPat,
+  nationality = {United States},
+  number      = {US 2008/0126045 A1},
+  year        = {2008},
+  yearfiled   = {2008},
+  author      = {Shan, XIaowen and Chen, Hudong and Zhang, Raoyang},
+  title       = {Computer simulation of physical processes},
+  language    = {English},
+  assignee    = {Exa Corporation},
+  type        = {patentus},
+  day         = {29},
+  dayfiled    = {29},
+  month       = may,
+  monthfiled  = {May},
+  abstract    = {Simulating a physical process includes storing, in a computer-accessible memory, state vectors for voxels, Where the state vectors correspond to a model and include entries that correspond to particular momentum states of possible momentum states at a voxel. Interaction operations are performed on the state vectors. The interaction operations model interactions between elements of different momentum states according to the model. Move operations performed on the state vectors re?ect movement of elements to new voxels according to the model. The model is adapted to simulate a high-Knudsen number How that has a Knudsen number greater than 0.1.},
+  file        = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-ShanX+ZhangR-USPat.pdf:PDF},
+  owner       = {felipestok},
+  timestamp   = {2017.09.07},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Article{2009-ChikatamarlaSS+KarlinIV-PhysRevE,
+  author    = {Chikatamarla, Shyam S. and Karlin, Iliya V.},
+  title     = {Lattices for the lattice Boltzmann method},
+  journal   = {Phys. Rev. E},
+  year      = {2009},
+  volume    = {79},
+  pages     = {046701},
+  month     = {Apr},
+  abstract  = {A recently introduced theory of higher-order lattice Boltzmann models [Chikatamarla and Karlin, Phys. Rev. Lett. 97, 190601 (2006)] is elaborated in detail. A general theory of the construction of lattice Boltzmann models as an approximation to the Boltzmann equation is presented. New lattices are found in all three dimensions and are classified according to their accuracy (degree of approximation of the Boltzmann equation). The numerical stability of these lattices is argued based on the entropy principle. The efficiency and accuracy of many new lattices are demonstrated via simulations in all three dimensions.},
+  doi       = {10.1103/PhysRevE.79.046701},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2009-ChikatamarlaSS+KarlinIV-PhysRevE.pdf:PDF},
+  issue     = {4},
+  numpages  = {18},
+  owner     = {felipestok},
+  publisher = {American Physical Society},
+  timestamp = {2017.09.07},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevE.79.046701},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Book{2011-HarrisS-Dover,
+  title     = {An Introduction to the Theory of the Boltzmann Equation},
+  publisher = {Dover Publications},
+  year      = {2011},
+  author    = {Stewart Harris},
+  series    = {Dover Books on Physics},
+  address   = {Mineola, New York},
+  month     = {October},
+  note      = {240 pages},
+  abstract  = {Boltzmann's equation (or Boltzmann-like equations) appears extensively in such disparate fields as laser scattering, solid-state physics, nuclear transport, and beyond the conventional boundaries of physics and engineering, in the fields of cellular proliferation and automobile traffic flow. This introductory graduate-level course for students of physics and engineering offers detailed presentations of the basic modern theory of Boltzmann’s equation, including representative applications using both Boltzmann’s equation and the model Boltzmann equations developed within the text. It emphasizes physical aspects of the theory, and it represents a practical resource for researchers and other professionals. The problems following each chapter are intended as learning examples, and they frequently extend and generalize the text material. Additional editorial features include a historical introduction, references, and subject and author indexes. 1971 edition.},
+  comment   = {ISBN-13: 978-0486438313},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2011-HarrisS-Dover.txt:Text},
+  owner     = {chris},
+  timestamp = {2016.08.29},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -625,189 +1203,19 @@ url="https://doi.org/10.1007/BF01021083"
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
-% Encoding: UTF-8
-
-@Article{1993-QianYH-JSciComput,
-  author    = {Y. H. Qian},
-  title     = {Simulating Thermohydrodynamics with Lattice BGK Models},
-  journal   = {Journal of Scientific Computing},
-  year      = {1993},
-  volume    = {8},
-  pages     = {231--242},
-  issn      = {0885-7474},
-  abstract  = {In this paper, we propose new lattice $BGK$ models for $one$-, $two$- and $three$ dimensional thermohydrodynamics. A proper internal energy is introduced and the energy equation is obtained. The derivation of the thermohydrodynamic equations is systematic and numerical simulations are carried out to verify the theoretical values of the sound speed, the shear viscosity and the conductivity. One-dimensional shock-tube problem and two-dimensional Rayleigh-B\'enard convection are simulated. Good performance and satisfactory results are obtained. These models can be applied to many interesting cases, in particular, the transonic regimes where the compressibility can not be neglected.},
-  doi       = {10.1007/BF01060932},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1993-QianYH-JSciComput.pdf:PDF},
-  keywords  = {Kinetic theory, thermohydrodynamics, computational technique, lattice gas, BGK model.},
-  numpages  = {12},
-  owner     = {felipestok},
-  publisher = {Kluwer Academic Publishers-Plenum Publishers},
-  timestamp = {2017.09.07},
-  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1007/BF01060932},
+@article{1949-GradH-CommPureApplMath,
+author = {Grad, Harold},
+title = {Note on N-dimensional hermite polynomials},
+journal = {Communications on Pure and Applied Mathematics},
+volume = {2},
+number = {4},
+pages = {325-330},
+doi = {10.1002/cpa.3160020402},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.3160020402},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpa.3160020402},
+year = {1949}
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@PhdThesis{1990-QianYH-Paris,
-  author  = {Qian, Yue Hong},
-  title   = {Lattice gas and lattice kinetic theory applied to the {N}avier-{S}tokes equation},
-  school  = {Université Pierre et Marie Curie},
-  year    = {1990},
-  address = {Paris},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1993-AlexanderFJ+SterlingJD-PhysRevE,
-  author    = {Alexander, F. J. and Chen, S. and Sterling, J. D.},
-  title     = {Lattice Boltzmann thermohydrodynamics},
-  journal   = {Phys. Rev. E},
-  year      = {1993},
-  volume    = {47},
-  number    = {4},
-  pages     = {R2249--R2252},
-  abstract  = {We introduce a lattice Boltzmann computational scheme capable of modeling thermohydrodynamic flows of monatomic gases. The parallel nature of this approach provides a numerically efficient alternative to traditional methods of computational Auid dynamics. The scheme uses a small number of discrete velocity states and a linear, single-time relaxation collision operator. Numerical simulations in two dimensions agree well with exact solutions for adiabatic sound propagation and Couette Aow with heat transfer.},
-  doi       = {10.1103/PhysRevE.47.R2249},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1993-AlexanderFJ+SterlingJD-PhysRevE.pdf:PDF},
-  numpages  = {4},
-  owner     = {felipestok},
-  publisher = {American Physical Society},
-  timestamp = {2017.09.07},
-  url       = {https://link.aps.org/doi/10.1103/PhysRevE.47.R2249},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1994-ChenY+AkiyamaM-PhysRevE,
-  author    = {Chen, Y. and Ohashi, H. and Akiyama, M.},
-  title     = {Thermal lattice {B}hatnagar-{G}ross-{K}rook model without nonlinear deviations in macrodynamic equations},
-  journal   = {Phys. Rev. E},
-  year      = {1994},
-  volume    = {50},
-  number    = {4},
-  pages     = {2776--2783},
-  month     = {October},
-  abstract  = {We present a thermal lattice Bhatnager-Gross-Krook ($BGK$) model in $D$-dimensional space for the numerical simulation of Quid dynamics. This model uses a higher-order velocity expansion for Maxwellian-type equilibrium distribution. In the meantime, the lattice symmetry has been upgraded to ensure isotropy for the sixth-rank velocity-moment tensor. These manipulations lead to macroscopic equations without the nonlinear deviations, from which conventional thermal or nonthermal lattice $BGK$ models suffered. We demonstrate the improvements by conducting classical Chapman-Enskog analysis and by the numerical calculation of the structure of the shock wave front and the decaying rate of the kinetic energy in the shear wave Bow. Parameters in the velocity expansion are explicitly given for example models in one, two, and three dimensions. The transport coeRcients of the modeled one-dimensional ($1D$) and $2D$ Huids are numerically measured as well.},
-  doi       = {10.1103/PhysRevE.50.2776},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1994-ChenY+AkiyamaM-PhysRevE.pdf:PDF},
-  issue     = {4},
-  numpages  = {8},
-  owner     = {felipestok},
-  publisher = {American Physical Society},
-  timestamp = {2017.09.07},
-  url       = {https://link.aps.org/doi/10.1103/PhysRevE.50.2776},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1998-ChenS+DoolenGD-AnnuRevFluidMech,
-  author    = {Chen, Shiyi and Doolen, Gary D.},
-  title     = {Lattice boltzmann method for fluid flows},
-  journal   = {Annual Review of Fluid Mechanics},
-  year      = {1998},
-  volume    = {30},
-  pages     = {329--364},
-  month     = {Dec},
-  abstract  = {We present an overview of the lattice Boltzmann method ($LBM$), a parallel and efficient algorithm for simulating single-phase and multiphase fluid flows and for incorporating additional physical complexities. The $LBM$ is especially useful for modeling complicated boundary conditions and multiphase interfaces. Recent extensions of this method are described, including simulations of fluid turbulence, suspension flows, and reaction diffusion systems.},
-  doi       = {10.1146/annurev.fluid.30.1.329},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1998-ChenS+DoolenGD-AnnuRevFluidMech.pdf:PDF},
-  numpages  = {36},
-  owner     = {felipestok},
-  publisher = {Annual Reviews Inc.},
-  timestamp = {2017.09.07},
-  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1146/annurev.fluid.30.1.329},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1996-HeX+DemboM-JComputPhys,
-  author    = {He, Xiaoyi and Luo, Li-Shi and Dembo, Micah},
-  title     = {Some Progress in Lattice Boltzmann Method. Part I. Nonuniform Mesh Grids},
-  journal   = {Journal of Computational Physics},
-  year      = {1996},
-  volume    = {129},
-  number    = {0255},
-  pages     = {357--363},
-  abstract  = {A new lattice Boltzmann algorithm is proposed to simulate the Navier–Stokes equation on arbitrary nonuniform mesh grids. The new algorithm retains the advantages of the lattice Boltzmann method: parallel of algorithm, ease of programming, and ability to  incorporate microscopic interactions. A simulation of flow in a twodimensional symmetric channel with sudden expansion is carried out using the new algorithm on a nonuniform mesh. The results of the simulation are in excellent agreement with previous experimen-floatingtal and numerical results.},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1996-HeX+DemboM-JComputPhys.pdf:PDF},
-  owner     = {felipestok},
-  timestamp = {2017.09.07},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{1997-HeX+LuoLS-PhysRevE,
-  author    = {Xiaoyi He and Li-Shi Luo},
-  title     = {Theory of the lattice Boltzmann method: From the Boltzmann equation to the lattice Boltzmann equation},
-  journal   = {Phys. Rev. E},
-  year      = {1997},
-  volume    = {56},
-  number    = {6},
-  pages     = {6811--6817},
-  month     = {December},
-  abstract  = {In this paper, the lattice Boltzmann equation is directly derived from the Boltzmann equation. It is shown that the lattice Boltzmann equation is a special discretized form of the Boltzmann equation. Various approximations for the discretization of the Boltzmann equation in both time and phase space are discussed in detail. A general procedure to derive the lattice Boltzmann model from the continuous Boltzmann equation is demonstrated explicitly. The lattice Boltzmann models derived include the two-dimensional 6-bit, 7-bit, and 9-bit, and three-dimensional 27-bit models.},
-  doi       = {10.1103/PhysRevE.56.6811},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1997-HeX+LuoLS-PhysRevE.pdf:PDF},
-  owner     = {chris},
-  review    = {Read on Sun, 2016-03-13. Written on a time in which lattice Boltzmann methods, LBM, were mainly, if not only, derived from lattice gas automata, LGA, the article presents the derivation of the lattice-Boltzmann equation, LBE, directly from the continuous Boltzmann equation with the approximation of linearization of the collision operator and the Bhatnagar-Gross-Krook, BGK, approximation with a single relaxation time. The article sheds light on the reasons why the method had not enjoyed success in simulating thermohydrodynamic systems before, refs [19--22], and afirms that the SRT BGK approximation is ``sufficient for the purpose of studying hydrodynamics of simple fluids''. It provides a clear, accessible, step-by-step presentation of the discretization of the Boltzmann equation, covering the following requirements: continuous Boltzmann equation without body/external-force term and velocity moments of the single-particle PDF, Section II; discretization in time, Section II-a, calculation of hydrodynamic moments from the discretized data, Section II-b; derivation of the LBE and its EDF, along with its ingredients, Section III; low-Mach number approximation of the EDF, Section III-a; discretization of phase space, Section III-b. In Section IV, some well-known, low order LBE models, such as the D2Q6, D2Q7, D2Q9, and D3Q27, are derived. Some unknown methods are cited, such as the Radau-Gauss numerical integration formula from ref. [35], after which the reading becomes way less clear. The following discussion is confused, as a so-called gas ``speed of light'' and ``speed of sound'' are mentioned, as well as the weights $w_a$ are simply presented, without further explanation. There are $W_a$ and $w_a$ weights in the text. Excellent material to base a presentation of up the the LBE equation, without applying it to a particular lattice configuration. This paper confirms that the integral of vector d\xi expands into multiple (=# of dimensions) integrals of velocity direction and magnitude---hence, of polar form, Eq (20). Paper refs[35, 36] are of fundamentally needed mathematical formulations on numerical quadratures: those of Radau-Gauss and Hermite-Gauss over the half-real axis.},
-  timestamp = {2016.03.16},
-  url       = {http://journals.aps.org/pre/abstract/10.1103/PhysRevE.56.6811},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Book{2011-HarrisS-Dover,
-  title     = {An Introduction to the Theory of the Boltzmann Equation},
-  publisher = {Dover Publications},
-  year      = {2011},
-  author    = {Stewart Harris},
-  series    = {Dover Books on Physics},
-  address   = {Mineola, New York},
-  month     = {October},
-  note      = {240 pages},
-  abstract  = {Boltzmann's equation (or Boltzmann-like equations) appears extensively in such disparate fields as laser scattering, solid-state physics, nuclear transport, and beyond the conventional boundaries of physics and engineering, in the fields of cellular proliferation and automobile traffic flow. This introductory graduate-level course for students of physics and engineering offers detailed presentations of the basic modern theory of Boltzmann’s equation, including representative applications using both Boltzmann’s equation and the model Boltzmann equations developed within the text. It emphasizes physical aspects of the theory, and it represents a practical resource for researchers and other professionals. The problems following each chapter are intended as learning examples, and they frequently extend and generalize the text material. Additional editorial features include a historical introduction, references, and subject and author indexes. 1971 edition.},
-  comment   = {ISBN-13: 978-0486438313},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2011-HarrisS-Dover.txt:Text},
-  owner     = {chris},
-  timestamp = {2016.08.29},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Book{2003-LiboffRL-bookSpringer,
-  title     = {Kinetic Theory: Classical, Quantum, and Relativistic Descriptions},
-  publisher = {Springer},
-  year      = {2003},
-  author    = {Richard L. Liboff},
-  editor    = {R. Stephen Berry and Joseph L. Birman and Mark P. Silverman and H. Eugene Stanley and Mikhail Voloshin},
-  series    = {Graduate Texts in Contemporary Physics},
-  address   = {New York},
-  edition   = {3rd},
-  month     = {September},
-  note      = {572 pages},
-  comment   = {ISBN-13: 978-0387955513},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2003-LiboffRL-bookSpringer.txt:Text},
-  owner     = {chris},
-  timestamp = {2016.08.29},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
 
 @article{1954-BhatnagarPL+KrookM-PhysRev,
   title = {A Model for Collision Processes in Gases. I. Small Amplitude Processes in Charged and Neutral One-Component Systems},
@@ -823,435 +1231,4 @@ url="https://doi.org/10.1007/BF01021083"
   doi = {10.1103/PhysRev.94.511},
   url = {https://link.aps.org/doi/10.1103/PhysRev.94.511}
 }
-
-% Encoding: UTF-8
-
-@Article{1998-PavloP+VahalaL-PhysRevLett,
-  author    = {Pavlo, Pavol and Vahala, George and Vahala, Linda},
-  title     = {Higher order isotropic velocity grids in lattice methods},
-  journal   = {Phys. Rev. Letters},
-  year      = {1998},
-  volume    = {80},
-  number    = {18},
-  pages     = {3960--3963},
-  month     = {May},
-  abstract  = {Kinetic lattice methods are a very attractive representation of nonlinear macroscopic systems because of their inherent parallelizability on multiple processors and their avoidance of the nonlinear convective terms. By uncoupling the velocity lattice from the spatial grid, one can employ higher order (non-space-filling) isotropic lattices—lattices which greatly enhance the stable parameter regions, particularly in thermal problems. In particular, the superiority of the octagonal lattice over previous models used in $2D$ (hexagonal or square) and $3D$ (projected face-centered hypercube) is shown.},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/1998-PavloP+VahalaL-PhysRevLett.pdf:PDF},
-  issue     = {18},
-  numpages  = {34},
-  owner     = {felipestok},
-  publisher = {American Physical Society},
-  timestamp = {2017.09.07},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2006-ShanX+ChenH-JFluidMech,
-  author    = {Xiaowen Shan and Xue-Feng Yuan and Hudong Chen},
-  title     = {Kinetic theory representation of hydrodynamics: a way beyond the Navier–Stokes equation},
-  journal   = {Journal of Fluid Mechanics},
-  year      = {2006},
-  volume    = {550},
-  pages     = {413--441},
-  month     = {March},
-  abstract  = {We present in detail a theoretical framework for representing hydrodynamic systems through a systematic discretization of the Boltzmann kinetic equation. The work is an extension of a previously proposed formulation. Conventional lattice Boltzmann models can be shown to be directly derivable from this systematic approach. Furthermore, we provide here a clear and rigorous procedure for obtaining higher-order approximations to the continuum Boltzmann equation. The resulting macroscopic moment equations at each level of the systematic discretization give rise to the Navier–Stokes hydrodynamics and those beyond. In addition, theoretical indications to the order of accuracy requirements are given for each discrete approximation, for thermohydrodynamic systems, and for fluid systems involving long-range interactions. All these are important for complex and micro-scale flows and are missing in the conventional Navier–Stokes order descriptions. The resulting discrete Boltzmann models are based on a kinetic representation of the fluid dynamics, hence the drawbacks in conventional higher-order hydrodynamic formulations can be avoided.},
-  doi       = {10.1017/S0022112005008153},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2006-ShanX+ChenH-JFluidMech.pdf:PDF},
-  owner     = {chris},
-  timestamp = {2016.08.28},
-  url       = {http://dx.doi.org/10.1017/S0022112005008153},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-@article{2003-NourgalievRR+JosephD-IntJMulFlow,
-title = "The lattice Boltzmann equation method: theoretical interpretation, numerics and implications",
-journal = "International Journal of Multiphase Flow",
-volume = "29",
-number = "1",
-pages = "117 - 169",
-year = "2003",
-issn = "0301-9322",
-doi = "https://doi.org/10.1016/S0301-9322(02)00108-8",
-url = "http://www.sciencedirect.com/science/article/pii/S0301932202001088",
-author = "R.R. Nourgaliev and T.N. Dinh and T.G. Theofanous and D. Joseph"
-}
-
-% Encoding: UTF-8
-
-@Article{2001-dHumieresD+LallemandP-PhysRevE,
-  author    = {d'Humi\`eres, Dominique and Bouzidi, M'hamed and Lallemand, Pierre},
-  title     = {Thirteen-velocity three-dimensional lattice Boltzmann model},
-  journal   = {Phys. Rev. E},
-  year      = {2001},
-  volume    = {63},
-  pages     = {066702},
-  month     = {May},
-  abstract  = {A thirteen-velocity three-dimensional lattice Boltzmann model on a cubic grid is presented. The transport coefficients derived from the standard Chapman-Enskog expansion are given together with the conditions for isotropy and Galilean invariance. The different invariants of the model are discussed. The results of measurements of drag and torque on a free falling sphere in a cylinder are in good agreement with solutions of the Navier-Stokes equation. Comparison of the time evolution of a freely decaying Taylor-Green vortex computed by fast Fourier transform and by the present model is presented.},
-  doi       = {10.1103/PhysRevE.63.066702},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2001-dHumieresD+LallemandP-PhysRevE.pdf:PDF},
-  issue     = {6},
-  numpages  = {7},
-  owner     = {chris},
-  publisher = {American Physical Society},
-  timestamp = {2016.08.28},
-  url       = {http://journals.aps.org/pre/abstract/10.1103/PhysRevE.63.066702},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2003-WatariM+TsutaharaM-PhysRevE,
-  author    = {Watari, Minoru and Tsutahara, Michihisa},
-  title     = {Two-dimensional thermal model of the finite-difference lattice Boltzmann method with high spatial isotropy},
-  journal   = {Phys. Rev. E},
-  year      = {2003},
-  volume    = {67},
-  pages     = {036306},
-  month     = {Mar},
-  abstract  = {The existing lattice Boltzmann method multispeed thermal models show a limited accuracy. This paper proposes a two-dimensional multispeed thermal model for the finite-difference lattice Boltzmann method ($FDLBM$). To recover correct fluid equations, up to fourth orders of local flow velocity should be retained in the local equilibrium distribution function and tensors of particle velocities should have up to seventh rank isotropy. In the $FDLBM$, particle velocities can be selected independently from the lattice configuration. Therefore, particle velocities of octagonal directions, which have up to seventh rank isotropic tensors, are adopted. The proposed model was verified by two simulations. The model showed excellent numerical stability in addition to strict accuracy.},
-  doi       = {10.1103/PhysRevE.67.036306},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2003-WatariM+TsutaharaM-PhysRevE.pdf:PDF},
-  issue     = {3},
-  numpages  = {7},
-  owner     = {felipestok},
-  publisher = {American Physical Society},
-  timestamp = {2017.09.09},
-  url       = {https://link.aps.org/doi/10.1103/PhysRevE.67.036306},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2005-LuXY-IntJModPhysC,
-  author    = {Lu, Xiao-Yang and Zhang, Chao-Ying and Liu, Mu-Ren and Kong, Ling-Jiang and Li, Hua-Bing},
-  title     = {Thermal lattice boltzmann simulation of viscous flow in a square cavity},
-  journal   = {International Journal of Modern Physics C},
-  year      = {2005},
-  volume    = {16},
-  pages     = {867--877},
-  month     = {Jun},
-  abstract  = {The $13$-speed thermal lattice Bhatnagar-Gross-Krook model on hexagonal lattice is a single relaxation time model with an adjustable parameter $\lambda$ which makes the Prandtl number tunable. This model maintains the simplicity of the lattice Boltzmann method ($LBM$) and is also suitable for various thermal fuids. In this paper, it is applied to simulations of the lid-driven flow in a square cavity at a wide range of Reynolds numbers. Numerical experiments show that this model can give the same accurate results as those by the conventional numerical methods.},
-  doi       = {10.1142/S0129183105007583},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2005-LuXY-IntJModPhysC.pdf:PDF},
-  keywords  = {Thermal lattice Boltzmann method, Reynolds number, Prandtl number, cavity flow.},
-  numpages  = {6},
-  owner     = {felipestok},
-  publisher = {World Scienti c Publishing Company},
-  timestamp = {2017.09.07},
-  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1142/S0129183105007583},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2006-ChikatamarlaSS+KarlinIL-PhysRevLett,
-  author    = {Chikatamarla, S. S. and Ansumali, S. and Karlin, I. V.},
-  title     = {Entropic Lattice Boltzmann Models for Hydrodynamics in Three Dimensions},
-  journal   = {Phys. Rev. Letters},
-  year      = {2006},
-  volume    = {97},
-  pages     = {010201},
-  month     = {Jul},
-  abstract  = {Efficient, nonlinearly stable entropic lattice Boltzmann models for computational fluid dynamics are presented. A new method of fast evaluation of equilibria to machine precision is proposed. Analytical solution is found for the collision step which guarantees stability and thermodynamic consistency of the scheme. As an example, a novel 15-velocity lattice Boltzmann model is derived and validated with a simulation of a $three$-dimensional backward-facing step flow.},
-  doi       = {10.1103/PhysRevLett.97.010201},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2006-ChikatamarlaSS+KarlinIL-PhysRevLett.pdf:PDF},
-  issue     = {1},
-  numpages  = {4},
-  owner     = {felipestok},
-  publisher = {American Physical Society},
-  timestamp = {2017.09.07},
-  url       = {https://link.aps.org/doi/10.1103/PhysRevLett.97.010201},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2006-ChikatamarlaSS+KarlinIV-PhysRevLett,
-  author    = {Chikatamarla, Shyam S. and Karlin, Iliya V},
-  title     = {Entropy and Galilean Invariance of Lattice Boltzmann Theories},
-  journal   = {Physical Review Letters},
-  year      = {2006},
-  volume    = {97},
-  pages     = {190601},
-  month     = {Nov},
-  abstract  = {A theory of lattice Boltzmann $(LB)$ models for hydrodynamic simulation is developed upon a novel relation between entropy construction and roots of Hermite polynomials. A systematic procedure is described for constructing numerically stable and complete Galilean invariant $LB$ models. The stability of the new $LB$ models is illustrated with a shock tube simulation.},
-  doi       = {10.1103/PhysRevLett.97.190601},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/stdRef/refs-2009-SurmasR+PhilippiPC-EurPhysJSpecialTopics/2006-ChikatamarlaSS+KarlinIV-PhysRevLett.pdf:PDF},
-  numpages  = {4},
-  owner     = {felipestok},
-  publisher = {American Physical Society},
-  timestamp = {2017.10.04},
-  url       = {https://link.aps.org/doi/10.1103/PhysRevLett.97.190601},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2006-WatariM+TsutaharaM-PhysA,
-  author    = {Watari, Minoru and Tsutahara, Michihisa},
-  title     = {Supersonic flow simulations by a three-dimensional multispeed thermal model of the finite difference lattice Boltzmann method},
-  journal   = {Physica A: Statistical Mechanics and its Applications},
-  year      = {2006},
-  volume    = {364},
-  pages     = {129--144},
-  month     = {May},
-  abstract  = {A three-dimensional multispeed thermal model of the finite difference lattice Boltzmann method ($FDLBM$) is proposed. In the $FDLBM$ we can select particle velocities independently from the lattice configuration. Particle velocities of the proposed model consist of vectors pointing to the vertex from the center of a dodecahedron and icosahedron. The model stably performs simulations in a wide range, from subsonic to supersonic flows. To verify the model, simulations of Couette flow, normal shock wave and supersonic nozzle are performed. All results agree with the theoretical predictions.},
-  doi       = {10.1016/j.physa.2005.06.103},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2006-WatariM+TsutaharaM-PhysA.pdf:PDF},
-  keywords  = {Finite difference, Lattice Boltzmann method, Three-dimensional, Couette flow, Supersonic flow, Laval nozzle, Normal shock},
-  numpages  = {16},
-  owner     = {felipestok},
-  publisher = {Elsevier B.V.(North-Holland)},
-  timestamp = {2017.09.07},
-  url       = {https://doi.org/10.1016/j.physa.2005.06.103},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2007-WatariM-PhysA,
-  author    = {Watari, Minoru},
-  title     = {Finite difference lattice Boltzmann method with arbitrary specific heat ratio applicable to supersonic flow simulations},
-  journal   = {Physica A: Statistical Mechanics and its Applications},
-  year      = {2007},
-  volume    = {382},
-  pages     = {502--522},
-  month     = {Aug},
-  abstract  = {The current finite difference lattice Boltzmann method ($FDLBM$) gives a fixed specific heat ratio because internal energy is limited to the translational freedom of the space. Yan et al. and Kataoka et al. clarified the conditions for deriving models with arbitrary specific heat ratio and proposed Euler models. However, these model applications to numerical simulations showed the weakness in the numerical stability. In this paper, a two-dimensional $FDLBM$ Navier Stokes model and a three-dimensional $FDLBM$ Euler model, which allow arbitrary values to be set for the specific heat ratio, were proposed. These models stably performed numerical simulations from subsonic to supersonic ranges.},
-  doi       = {10.1016/j.physa.2007.03.037},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2007-WatariM-PhysA.pdf:PDF},
-  keywords  = {Finite difference, Lattice Boltzmann method, Two-dimensional, Three-dimensional, Sound speed, Couette flow, Normal shock, Supersonic nozzle flow},
-  numpages  = {21},
-  owner     = {felipestok},
-  publisher = {Elsevier B.V.(North-Holland)},
-  timestamp = {2017.09.07},
-  url       = {https://doi.org/10.1016/j.physa.2007.03.037},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2006-PhilippiPC+SurmasR-PhysRevE,
-  author    = {Philippi, Paulo C. and Hegele, Luiz A. and dos Santos, Lu\'{\i}s O. E. and Surmas, Rodrigo},
-  title     = {From the continuous to the lattice Boltzmann equation: The discretization problem and thermal models},
-  journal   = {Phys. Rev. E},
-  year      = {2006},
-  volume    = {73},
-  pages     = {056702},
-  month     = {May},
-  abstract  = {The velocity discretization is a critical step in deriving the lattice Boltzmann (LBE) from the continuous Boltzmann equation. This problem is considered in the present paper, following an alternative approach and giving the minimal discrete velocity sets in accordance with the order of approximation that is required for the LBE with respect to the continuous Boltzmann equation and with the lattice structure. Considering $N$ to be the order of the polynomial approximation to the Maxwell-Boltzmann equilibrium distribution, it is shown that solving the discretization problem is equivalent to finding the inner product in the discrete space induced by the inner product in the continuous space that preserves the norm and the orthogonality of the Hermite polynomial tensors in the Hilbert space generated by the functions that map the velocity space onto the real numbers space. As a consequence, it is shown that, for each order $N$ of approximation, the even-parity velocity tensors are isotropic up to rank $2N$ in the discrete space. The norm and the orthogonality restrictions lead to space-filling lattices with increased dimensionality when compared with presently known lattices. This problem is discussed in relation with a discretization approach based on a finite set of orthogonal functions in the discrete space. Two-dimensional square lattices intended to be used in thermal problems and their respective equilibrium distributions are presented and discussed.},
-  doi       = {10.1103/PhysRevE.73.056702},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2006-PhilippiPC+SurmasR-PhysRevE.pdf:PDF},
-  issue     = {5},
-  numpages  = {12},
-  owner     = {chris},
-  publisher = {American Physical Society},
-  timestamp = {2016.08.28},
-  url       = {http://link.aps.org/doi/10.1103/PhysRevE.73.056702},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-@article{1949-GradH-CommPureApplMath,
-author = {Grad, Harold},
-title = {Note on N-dimensional hermite polynomials},
-journal = {Communications on Pure and Applied Mathematics},
-volume = {2},
-number = {4},
-pages = {325-330},
-doi = {10.1002/cpa.3160020402},
-url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.3160020402},
-eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpa.3160020402},
-year = {1949}
-}
-
-
-% Encoding: UTF-8
-
-@MastersThesis{2007-OrtizCEP-DrUFSC,
-  author    = {Ortiz, Carlos Henrique Pico},
-  title     = {Aplica\c{c}\~ao das Formas Discretas da Equa\c{c}\~ao de Boltzmann \`a Termo-hidrodin\^amica de Misturas},
-  school    = {Universidade Federal de Santa Catarina},
-  year      = {2007},
-  type      = {phdthesis},
-  month     = aug,
-  abstract  = {In this work is shown a formal and systematic derivation procedure of a set of differential equations, in space $(x; t)$, from the Boltzmann transport equation, in space $(x; c; t)$, which transfer equations represent properly the thermohydrodynamics of a compressible fluid. For this purpose, the particle distribution function was expanded in a base of the Hilbert space of functions, spanned by the Hermite polynomial tensors of the molecular velocity c, which weight function can be identified as a global Maxwellian distribution function. The truncation order of this series is the one required to obtain the Navier-Stokes-Fourier equations, through the asymptotic Chapman-Enskog analysis. The velocity space was driscretized in order to guarantee that the moments of the approximation to the distribution function can be accurately represented by a quadrature formula. Solutions to the quadrature problem in two and three dimensions, for several approximation orders, were shown and discussed, mainly the relation between the regular cartesian solutions and the Lattice Boltzmann Method $(LBM)$. The solution of the resulting set of partial differential equations of $f_{i}(x; t)$ was accomplished by explicit finite difference method. The method allows for a consistent treatment of the hydrodynamics equations of mixtures of gases with non-homogeneous temperature fields and with different molecular mass components. The procedure was verified by the implementation of a BGK model for simple gases and binary mixtures of gases, with one and three relaxation parameters, respectively. A Chapman-Enskog analysis of the implemented models was developed to obtain the explicit forms of the difusive mass flux, the pressure tensor and the heat flux, and the transport coeficients: binary difusion coefcient, viscosity and thermal conductivity. These results were compared satisfactorily against analytical solutions of the advection-difusion equation with several initial conditions.},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/stdRef/refs-2009-SurmasR+PhilippiPC-EurPhysJSpecialTopics/2007-OrtizCEP-DrUFSC.pdf:PDF},
-  keywords  = {Lattice Boltzmann Method; Discrete Boltzmann Equation; Kinetic theory of mixtures},
-  owner     = {felipestok},
-  timestamp = {2017.10.04},
-  url       = {https://repositorio.ufsc.br/xmlui/bitstream/handle/123456789/90489/250557.pdf?sequence=1},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2007-PhilippiPC+DosSantosLOE-IntJModPhysC,
-  author    = {Philippi, Paulo Cesar and Hegele, Luiz Adolfo Jr and Surmas, Rodrigo and Siebert, Diogo Nardelli and Dos Santos, Lu\'is Orlando Emerich},
-  title     = {From the Boltzmann to the lattice-Boltzmann equation: beyond BGK collision models},
-  journal   = {International Journal of Modern Physics C},
-  year      = {2007},
-  volume    = {18},
-  pages     = {556--565},
-  month     = {April},
-  abstract  = {In this work, we present a derivation for the lattice-Boltzmann equation directly from the linearized Boltzmann equation, combining the following main features: multiple relaxation times and thermodynamic consistency in the description of non isothermal compressible flows. The method presented here is based on the discretization of increasingly orde kinetic models of the Boltzmann equation. Following a Gross-Jackson procedure, the linearized collision term is developed in Hermite polynomial tensors and the resulting infinite series is diagonalized after a chosen integer N, establishing the order of approximation of the collision term. The velocity space is discretized, in accordance with a quadrature method based on prescribed abscissas (Philippi et al., Phys. Rev E 73, 056702, 2006). The problem of describing the energy transfer is discussed, in relation with the order of approximation of a two relaxation-times lattice Boltzmann model. The velocity-step, temperature-step and the shock tube problems are investigated, adopting lattices with 37, 53 and 81 velocities.},
-  doi       = {10.1142/S0129183107010796},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2007-PhilippiPC+DosSantosLOE-IntJModPhysC.pdf:PDF},
-  keywords  = {Lattice Boltzmann equation, thermal models, multiple relaxation times.},
-  owner     = {felipestok},
-  timestamp = {2017.09.15},
-  url       = {https://doi.org/10.1142/S0129183107010796},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2007-SiebertDN+PhilippiPC-IntJModPhysC,
-  author    = {Diogo Nardelli Siebert and Hegele, Jr., Luiz Adolfo and Rodrigo Surmas and dos Santos, Lu\'{\i}s Orlando Emerich and Paulo Cesar Philippi},
-  title     = {Thermal lattice-Boltzmann in two dimensions},
-  journal   = {International Journal of Modern Physics C},
-  year      = {2007},
-  volume    = {18},
-  number    = {4},
-  pages     = {546--555},
-  month     = {April},
-  abstract  = {The velocity discretization is a critical step in deriving the lattice Boltzmann (LBE) from the Boltzmann equation. The velocity discretization problem was considered in a recent paper (Philippi et al., From the continuous to the lattice Boltzmann equation: the discretization problem and thermal models, Physical Review E 73: 56702, 2006) following a new approach and giving the minimal discrete velocity sets in accordance with the order of approximation that is required for the LBE with respect to the Boltzmann equation. As a consequence, two-dimensional lattices and their respective equilibrium distributions were derived and discussed, considering the order of approximation that was required for the LBE. In the present work, a Chapman-Enskog (CE) analysis is performed for deriving the macroscopic transport equations for the mass, momentum and energy for these lattices. The problem of describing the transfer of energy in fluids is discussed in relation with the order of approximation of the LBE model. Simulation of temperature, pressure and velocity steps are also presented to validate the CE analysis.},
-  doi       = {10.1142/S0129183107010784},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2007-SiebertDN+PhilippiPC-IntJModPhysC.pdf:PDF},
-  keywords  = {LBE; thermal models; BGK; quadrature},
-  owner     = {chris},
-  timestamp = {2016.08.28},
-  url       = {http://www.worldscientific.com/doi/abs/10.1142/S0129183107010784},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2008-ChenH+ShanX-PhysD,
-  author    = {Chen, Hudong and Shan, Xiaowen},
-  title     = {Fundamental conditions for N-th-order accurate lattice Boltzmann models},
-  journal   = {Physica D: Nonlinear Phenomena},
-  year      = {2008},
-  volume    = {237},
-  pages     = {2003--2008},
-  month     = {Aug},
-  abstract  = {In this paper, we theoretically prove a set of fundamental conditions pertaining to discrete velocity sets and corresponding weights. These conditions provide sufficient conditions for a priori formulation of lattice Boltzmann models that automatically admit correct hydrodynamic moments up to any given $N$-th order.},
-  doi       = {10.1016/j.physd.2007.11.010},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-ChenH+ShanX-PhysD.pdf:PDF},
-  issue     = {14--17},
-  keywords  = {Lattice Boltzmann, Hydrodynamic moments},
-  numpages  = {6},
-  owner     = {felipestok},
-  publisher = {Elsevier B.V.(North-Holland)},
-  timestamp = {2017.09.09},
-  url       = {https://doi.org/10.1016/j.physd.2007.11.010},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2008-RubinsteinR+LuoLS-PhysRev,
-  author    = {Rubinstein, Robert and Luo, Li-Shi},
-  title     = {Theory of the lattice Boltzmann equation: symmetry properties of discrete velocity sets},
-  journal   = {Phys. Rev. E},
-  year      = {2008},
-  volume    = {77},
-  pages     = {036709},
-  month     = {Mar},
-  abstract  = {The lattice Boltzmann equation replaces continuous particle velocity space by a finite set; the velocity distribution function then varies over a finite-dimensional vector space instead of over an infinite-dimensional function space. The number of linearly independent moments of the distribution function in a lattice Boltzmann model cannot exceed the number of velocities; finite dimensionality therefore necessarily induces linear dependences among the moments that do not exist in a continuous theory. Given a finite velocity set, it is important to know which moments are free of these dependences. Elementary group theory is applied to the solution of this problem. It is found that decomposing the velocity set into subsets that transform among themselves under an appropriate symmetry group makes it straightforward to uncover linear dependences among the moments. The construction of some standard two- and three-dimensional models is reviewed from this viewpoint, and procedures for constructing higher-dimensional models are suggested.},
-  doi       = {10.1103/PhysRevE.77.036709},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-RubinsteinR+LuoLS-PhysRev.pdf:PDF},
-  issue     = {3},
-  numpages  = {11},
-  owner     = {felipestok},
-  publisher = {American Physical Society},
-  timestamp = {2017.09.07},
-  url       = {https://link.aps.org/doi/10.1103/PhysRevE.77.036709},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Patent{2008-ShanX+ZhangR-USPat,
-  nationality = {United States},
-  number      = {US 2008/0126045 A1},
-  year        = {2008},
-  yearfiled   = {2008},
-  author      = {Shan, XIaowen and Chen, Hudong and Zhang, Raoyang},
-  title       = {Computer simulation of physical processes},
-  language    = {English},
-  assignee    = {Exa Corporation},
-  type        = {patentus},
-  day         = {29},
-  dayfiled    = {29},
-  month       = may,
-  monthfiled  = {May},
-  abstract    = {Simulating a physical process includes storing, in a computer-accessible memory, state vectors for voxels, Where the state vectors correspond to a model and include entries that correspond to particular momentum states of possible momentum states at a voxel. Interaction operations are performed on the state vectors. The interaction operations model interactions between elements of different momentum states according to the model. Move operations performed on the state vectors re?ect movement of elements to new voxels according to the model. The model is adapted to simulate a high-Knudsen number How that has a Knudsen number greater than 0.1.},
-  file        = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-ShanX+ZhangR-USPat.pdf:PDF},
-  owner       = {felipestok},
-  timestamp   = {2017.09.07},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2008-KimSH+BoydID-JComputPhys,
-  author    = {Kim, Seung Hyun and Pitsch, Heinz and Boyd, Iain D.},
-  title     = {Accuracy of higher-order lattice Boltzmann methods for microscale flows with finite Knudsen numbers},
-  journal   = {Journal of Computational Physics},
-  year      = {2008},
-  volume    = {227},
-  pages     = {8655–-8671},
-  month     = {Jun},
-  abstract  = {Accuracy of the lattice Boltzmann ($LB$) method for microscale flows with finite Knudsen numbers is investigated. We employ up to the eleventh-order Gauss–Hermite quadrature for the lattice velocities and diffuse-scattering boundary condition for fluid–wall interactions. Detailed comparisons with the direct simulation Monte Carlo ($DSMC$) method and the linearized Boltzmann equation are made for planar Couette and Poiseuille flows. All higher-order $LB$ methods considered here give improved results as compared with the standard $LB$ method. The accuracy of the $LB$ hierarchy, however, does not monotonically increase with the order of the Gauss–Hermite quadrature at moderate and large Knudsen numbers. The results also show the sensitivity to a quadrature chosen, even when the Gauss–Hermite quadratures have the same order of formal accuracy. Among the schemes investigated here, $D2Q16$ is the most efficient method and offers a quantitative prediction in the slip and transition regimes. The higher-order $LB$ methods predict the Knudsen layer up to $K_{n}=O(0.1)$. The Knudsen layer, however, rapidly disappears when the Knudsen number approaches unity due to a finite number of the lattice velocities, while it is still present for $K_{n}=O(1)$ in the Boltzmann equation. It is also found that the higher-order $LB$ methods adopted here do not capture the asymptotic behavior of the Boltzmann equation at large Knudsen numbers.},
-  doi       = {10.1016/j.jcp.2008.06.012},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2008-KimSH+BoydID-JComputPhys.pdf:PDF},
-  keywords  = {Lattice Boltzmann method, Kinetic theory, Microscale flow},
-  numpages  = {17},
-  owner     = {felipestok},
-  publisher = {Elsevier Inc.(North-Holland)},
-  timestamp = {2017.09.07},
-  url       = {https://doi.org/10.1016/j.jcp.2008.06.012},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-% Encoding: UTF-8
-
-@Article{2009-ChikatamarlaSS+KarlinIV-PhysRevE,
-  author    = {Chikatamarla, Shyam S. and Karlin, Iliya V.},
-  title     = {Lattices for the lattice Boltzmann method},
-  journal   = {Phys. Rev. E},
-  year      = {2009},
-  volume    = {79},
-  pages     = {046701},
-  month     = {Apr},
-  abstract  = {A recently introduced theory of higher-order lattice Boltzmann models [Chikatamarla and Karlin, Phys. Rev. Lett. 97, 190601 (2006)] is elaborated in detail. A general theory of the construction of lattice Boltzmann models as an approximation to the Boltzmann equation is presented. New lattices are found in all three dimensions and are classified according to their accuracy (degree of approximation of the Boltzmann equation). The numerical stability of these lattices is argued based on the entropy principle. The efficiency and accuracy of many new lattices are demonstrated via simulations in all three dimensions.},
-  doi       = {10.1103/PhysRevE.79.046701},
-  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2009-ChikatamarlaSS+KarlinIV-PhysRevE.pdf:PDF},
-  issue     = {4},
-  numpages  = {18},
-  owner     = {felipestok},
-  publisher = {American Physical Society},
-  timestamp = {2017.09.07},
-  url       = {https://link.aps.org/doi/10.1103/PhysRevE.79.046701},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
 
