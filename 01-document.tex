@@ -213,7 +213,7 @@
     Karlin~\cite{2006-ChikatamarlaSS+KarlinIV-PhysRevLett} set about the problem of LB stencil construction from a discrete form
     of Boltzmann's H-theorem---in which the  $(-H)$  quantity  represents  a  sort  of  generalized  thermodynamic  entropy  for
     non-equilibrium states in the Boltzmann Gas Limit (BGL) that increases according to the second law of  thermodynamics  until
-    equilibrium is reached~\cite{2011-HarrisS-Dover}. By minimizing the entropy function
+    equilibrium is reached~\cite{2011-HarrisS-Dover}. By minimizing $H$, i.e., maximizing the entropy,
     %
     \begin{equation}
         H = \sum_{i=1}^{N}f_i\ln\left(\frac{f_i}{w_i}\right),
@@ -221,7 +221,19 @@
     %
     \noindent with appropriately chosen weights $w_i$ under a set of macroscopic constraints of mass and energy conservation  as
     well as constitutive relations for higher-order macroscopic tensors, authors arrived at \emph{explicit} expressions for  the
-    weights $w_i$ and for the stencil reference temperature.
+    weights $w_i$ and for the stencil reference temperature for several one-dimensional  lattice  models  having  from  3  to  5
+    velocities. Methods obtained by this systematic were named `entropic' LB methods (ELBM).
+
+    Remarkably, due to a pattern in Gauss-Hermite  quadrature~\cite{2003-AnsumaliS+OettingerHC-EuroPhysLett},  Chikatamarla  and
+    Karlin       proposed       a       straightforward       way       of       obtaining       higher-dimension        lattice
+    stencils~\cite{2006-ChikatamarlaSS+KarlinIV-PhysRevLett}:
+
+    \begin{quote}
+        \swshape
+        ``[...]~discrete velocities [$\pmb{\xi}_i$] in the $D$-dimensional case  are  tensor  products  of  $D$  copies  of  the
+        one-dimensional velocities, whereas the corresponding weights  [$w_i$]  are  algebraic  products  of  the  corresponding
+        weights in one dimension.''
+    \end{quote}
 
     % undertook
 
