@@ -1232,3 +1232,29 @@ year = {1949}
   url = {https://link.aps.org/doi/10.1103/PhysRev.94.511}
 }
 
+@article{2003-AnsumaliS+OettingerHC-EuroPhysLett,
+	doi = {10.1209/epl/i2003-00496-6},
+	url = {https://doi.org/10.1209%2Fepl%2Fi2003-00496-6},
+	year = 2003,
+	month = {sep},
+	publisher = {{IOP} Publishing},
+	volume = {63},
+	number = {6},
+	pages = {798--804},
+	author = {S Ansumali and I. V Karlin and H. C Öttinger},
+	title = {Minimal entropic kinetic models for hydrodynamics},
+	journal = {Europhysics Letters ({EPL})},
+	abstract = {We derive minimal discrete models of the Boltzmann equation
+consistent with equilibrium thermodynamics, and which recover
+correct hydrodynamics in arbitrary dimensions. A new discrete
+velocity model is proposed for the simulation of the
+Navier-Stokes-Fourier equation and is tested in the setup of
+Taylor vortex flow. A simple analytical procedure for
+constructing the equilibrium for thermal hydrodynamics is
+established. For the lattice Boltzmann method of isothermal
+hydrodynamics, the explicit analytical form of the equilibrium
+distribution is presented. This results in an entropic version of
+the isothermal lattice Boltzmann method with the simplicity and
+computational efficiency of the standard lattice Boltzmann model.}
+}
+
