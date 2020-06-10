@@ -1288,3 +1288,18 @@ author = "Shyam S. Chikatamarla and Iliya V. Karlin",
 keywords = "Lattice Boltzmann, Entropy, Computational fluid dynamics",
 abstract = "Recently, a general theory of constructing lattice Boltzmann models as an approximation to the Boltzmann equation has been introduced [S. Chikatamarla, I. Karlin, Phys. Rev. Lett. 97 (2006) 190601]. We extend this theory to two dimensions and identify a new complete Galilean invariant lattice Boltzmann model. A general theory of constructing discrete velocity sets in higher dimensions is presented. Further implementation and optimization techniques are discussed."
 }
+% Encoding: UTF-8
+
+@Article{2009-SurmasR+PhilippiPC-EurPhysJSpecialTopics,
+  author    = {Surmas, R. and Pico, Ortiz C. and Philippi, P. C.},
+  title     = {Simulating thermohydrodynamics by finite difference solutions of the Boltzmann equation},
+  journal   = {The European Physical Journal Special Topics},
+  year      = {2009},
+  volume    = {171},
+  pages     = {81-90},
+  month     = {Apr},
+  doi       = {10.1140/epjst/e2009-01014-x},
+  url       = {https://doi.org/10.1140/epjst/e2009-01014-x},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
