@@ -308,8 +308,15 @@
     SLB(3;~4,~4,~7), SLB(4;~5,~5,~9), and so  on  up  to  SLB(7;  8,  8,  15),  and  even  an  SLB(N;  20,  20,  17)  are  given
     in~\cite{2012-AmbrusVE+SofoneaV-PhysRevE}, the last ones having, respectively, 960 and 6800 velocities!
 
-    Rhombic D2Q9, rectangular D2R11, and orthorhombic Bravais D3R23 lattices are found
-    in~\cite{2013-HegeleJr+PhilippiPC-JSciComput}
+    Rhombic     D2Q9,     rectangular     D2R11,     and     orthorhombic     Bravais     D3R23     lattices      are      found
+    in~\cite{2013-HegeleJr+PhilippiPC-JSciComput}.
+
+    Mattila  and  co-authors~\cite{2013-MattilaKK+PhilippiPC-IntJModPhysC}  have  shown  that  spurious  currents  emerge  along
+    liquid-vapor interface in multiphase simulations. They have shown that  higher-order  stencils,  such  as  the  fourth-order
+    D2V37, yields more localized and isotropic spurious currents than lower order ones, such as third-order D2V17 and  D2Q25-ZOT
+    ones. Thus, multiphase flows became another application calling for multi-speed, higher-order  lattices.  In  fact,  shortly
+    after the group published~\cite{2014-MattilaKK+PhilippiPC-SciWorldJ} prescribed abscissas derived D2V81 and D2V141 lattices,
+    along with an equivalent, however far simpler form of the prescribed abscissas method in their Section 2.
 
     % As conciseness is preferred over long-windedness, and ambiguity is generally frowned upon, Therefore, proposing an
     % unambiguous, energy-level based, Bravais lattice naming scheme for  LB stencils is the goal of this work.
