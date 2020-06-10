@@ -1258,3 +1258,18 @@ the isothermal lattice Boltzmann method with the simplicity and
 computational efficiency of the standard lattice Boltzmann model.}
 }
 
+@article{1993-QianYH+OrszagSA-EuroPhysLett,
+	doi = {10.1209/0295-5075/21/3/001},
+	url = {https://doi.org/10.1209%2F0295-5075%2F21%2F3%2F001},
+	year = 1993,
+	month = {jan},
+	publisher = {{IOP} Publishing},
+	volume = {21},
+	number = {3},
+	pages = {255--259},
+	author = {Y. H Qian and S. A Orszag},
+	title = {Lattice {BGK} Models for the Navier-Stokes Equation: Nonlinear Deviation in Compressible Regimes},
+	journal = {Europhysics Letters ({EPL})},
+	abstract = {In this letter, a nonlinear deviation from the Navier-Stokes equation is obtained from the recently proposed LBGK models, which are designed as an alternative to lattice gas or lattice Boltzmann equation. The classical Chapman-Enskog method is extended to derive the nonlinear-deviation term as well as its coefficient. Their analytical expression is derived for the first time, thanks to the simplicity of the LBGK models. A numerical simulation of a shock profile is presented. The influence of the correction on the kinetics of compressible flow is discussed. A complete analysis of the thermodynamics including the temperature will be presented elsewhere.},
+}
+
