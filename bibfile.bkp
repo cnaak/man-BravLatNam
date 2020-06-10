@@ -1303,3 +1303,38 @@ abstract = "Recently, a general theory of constructing lattice Boltzmann models 
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
+% Encoding: UTF-8
+
+@Article{2010-AidunCK+ClausenJR-AnnuRevFluidMech,
+  author    = {Aidun, Cyrus K. and Clausen, Jonathan R.},
+  title     = {Lattice-Boltzmann Method for Complex Flows},
+  journal   = {Annual Review of Fluid Mechanics},
+  year      = {2010},
+  volume    = {42},
+  pages     = {439--472},
+  abstract  = {With its roots in kinetic theory and the cellular automaton concept, the lattice-Boltzmann ($LB$) equation can be used to obtain continuum flow quantities from simple and local update rules based on particle interactions. The simplicity of formulation and its versatility explain the rapid expansion of the $LB$ method to applications in complex and multiscale flows.We review many significant developments over the past decade with specific examples. Some of the most active developments include the entropic $LB$ method and the application of the $LB$ method to turbulent flow, multiphase flow, and deformable particle and fiber suspensions. Hybrid methods based on the combination of the Eulerian lattice with a Lagrangian grid system for the simulation of moving deformable boundaries show promise for more efficient applications to a broader class of problems.We also discuss higherorder boundary conditions and the simulation of microchannel flow with finite Knudsen number. Additionally, the remarkable scalability of the $LB$ method for parallel processing is shown with examples. Teraflop simulations with the $LB$ method are routine, and there is no doubt that this method will be one of the first candidates for petaflop computational fluid dynamics in the near future.},
+  doi       = {10.1146/annurev-fluid-121108-145519},
+  file      = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2010-AidunCK+ClausenJR-AnnuRevFluidMech.pdf:PDF},
+  keywords  = {multiphase flow, microfluidics, turbulence simulation, entropic lattice-Boltzmann, deformable particle suspensions, finite Knudsen number},
+  numpages  = {34},
+  owner     = {felipestok},
+  publisher = {Annual Reviews},
+  timestamp = {2017.09.07},
+  url       = {https://doi-org.ez48.periodicos.capes.gov.br/10.1146/annurev-fluid-121108-145519},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+% Encoding: UTF-8
+
+@Electronic{2010-AidunCK+ClausenJR-AnnuRevFluidMech-supl,
+  author       = {Aidun, Cyrus K. and Clausen, Jonathan R.},
+  title        = {Supplementary Material: Lattice-Boltzmann Method for Complex Flows},
+  organization = {G. W. Woodru School of Mechanical Engineering, Georgia Institute of Technology, Atlanta, Georgia 30302},
+  file         = {:/home/felipestok/Dropbox/Nascimento-Felipe-artigos/170216-BravLatNaming/A-sandBox/ref/2010-AidunCK+ClausenJR-AnnuRevFluidMech-supl.pdf:PDF},
+  owner        = {felipestok},
+  timestamp    = {2017.09.09},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
