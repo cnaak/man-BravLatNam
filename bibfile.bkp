@@ -1493,3 +1493,18 @@ abstract = "Recently, a general theory of constructing lattice Boltzmann models 
   url = {https://link.aps.org/doi/10.1103/PhysRevE.93.063302}
 }
 
+@article{2016-FrapolliN+KarlinIV-PhysRevLett,
+  title = {Lattice Kinetic Theory in a Comoving Galilean Reference Frame},
+  author = {Frapolli, N. and Chikatamarla, S. S. and Karlin, I. V.},
+  journal = {Phys. Rev. Lett.},
+  volume = {117},
+  issue = {1},
+  pages = {010604},
+  numpages = {4},
+  year = {2016},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.117.010604},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.117.010604}
+}
+
