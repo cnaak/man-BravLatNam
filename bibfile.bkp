@@ -1539,3 +1539,18 @@ abstract = "Recently, a general theory of constructing lattice Boltzmann models 
 }
 
 
+@article{1998-QianYH+ZhouY-EuroPhysLett,
+	doi = {10.1209/epl/i1998-00255-3},
+	url = {https://doi.org/10.1209%2Fepl%2Fi1998-00255-3},
+	year = 1998,
+	month = {may},
+	publisher = {{IOP} Publishing},
+	volume = {42},
+	number = {4},
+	pages = {359--364},
+	author = {Y.-H Qian and Y Zhou},
+	title = {Complete Galilean-invariant lattice {BGK} models for the Navier-Stokes equation},
+	journal = {Europhysics Letters ({EPL})},
+	abstract = {Galilean invariance has been an important issue in lattice-based hydrodynamics models. Previous models concentrated on the nonlinear advection term. In this paper, we take into account the nonlinear response effect in a systematic way. Using the Chapman-Enskog expansion up to second order, complete Galilean invariant lattice BGK models in one dimension (θ = 3) and two dimensions (θ = 1) for the Navier-Stokes equation have been obtained.},
+}
+
